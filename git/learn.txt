@@ -1,0 +1,65 @@
+// first time u use git
+git config --global user.name ""
+git config --global user.email 
+
+// existing repo on github
+git clone <repo address>
+git init
+git status
+git add (. or * or <filename> or <foldername>)
+git restore --staged (. or * or <filename> or <foldername>)
+git reset head <choose excepted>
+git clean -n
+git clean -f
+git commit -m <"breif message">
+git push -u origin main
+git push
+git log
+(q to quit from log)
+git reset --hard <commit-hash u want to delete that are after it> 
+git push origin <branchname> --force
+
+// branching (use github to pull request, compare and merge)
+git branch
+git branch <branchname u want to creat>
+git checkout <existing branchname u want to get into>
+git checkout -b <brachname u want to creat and get into>
+git branch -n <new name for current branch>
+git branch -d <branchname u want to delete but check modifications first>
+git branch -D <branchname u want to forcely delete>
+git merge <branchname u want to merge with current branch u in>
+git push origin <branchname>
+
+// stashing
+git stash
+git stash save <statchname>
+git stash list
+git stash pop
+git stash pop stash@{<stachNo. u want to pop>}
+git stash apply
+git stash apply stash@{<stachNo. u want to get modifications from but keep>}
+git stash drop
+git stash drop stash@{<stachNo. u want to delete>}
+git stash show stash@{<stachNo. u want to know what are in>}
+git stash clear
+
+// to edit .gitconfig file
+git config --global --edit
+
+// to make any command shorter
+git config --global alias.<abr> <command>
+
+// ignoring
+touch .gitignore
+code .gitignore
+(type .gitignore and foldername or filename with extention or *.fileextention or any thing u need to hide from git)
+
+// tagging
+git tag <versionrealase> -m "message"
+git tag
+git tag -l ("v1.*" or "v*")
+git tag -a <versionrealase> -m "message"
+git tag -d <versionrealase to delete from local>
+git push origin -- delete <versionrealase to delete from remote>
+
+// Git Version Control Cookbook
