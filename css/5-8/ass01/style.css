@@ -1,0 +1,25 @@
+div {
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.first {
+    background-color: #8a2be2;
+    /* background-color: blueviolet;
+    background-color: hwb(271 17% 11%);
+    background-color: hsl(271, 76%, 53%);
+    background-color: rgb(138, 43, 226);
+    background-color: rgba(138, 43, 226, 1); */
+}
+
+.second {
+    /* background-color: #8a2be280;
+    background-color: hsla(271, 76%, 53%, 0.5);
+    background-color: hwb(271 17% 11% / 0.5); */
+    background-color: rgba(138, 43, 226, 0.5);
+}
+
+.third {
+    background-color: rgba(138, 43, 226, 0.1);
+}
