@@ -1,0 +1,53 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-shadow: 1px 1px 0 #f44336, 2px 2px 0 #2196f3, 3px 3px 0 #9c27b0;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+.parag {
+    width: 400px;
+    background-color: #f0f0f0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.first {
+    white-space: initial;
+}
+
+.third {
+    text-overflow: ellipsis;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    background-color: #009688;
+    border-bottom: 4px solid #00514a;
+}
