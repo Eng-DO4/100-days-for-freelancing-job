@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 400px;
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.child {
+    background-color: #eeeeee;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.ol1 {
+    padding-left: 32px;
+}
+
+.ol2 {
+    padding-left: 32px;
+    list-style-type: upper-roman;
+}
+
+.ul1 {
+    list-style-position: inside;
+    padding-left: 0;
+}
