@@ -1,0 +1,45 @@
+div {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    outline: #000 solid 5px;
+    background-color: #f0f0f0;
+}
+
+.first {
+    border: 5px solid #F00;
+}
+
+/* دى حركة سخيفة عادي */
+.second {
+    border: 5px solid #00F;
+    border-left-color: #0F0;
+    border-right-color: #0F0;
+}
+
+.third {
+    border-top: 5px dashed #F00;
+    border-right: 5px dashed #0F0;
+    border-bottom: 5px dashed #00F;
+    border-left: 5px dashed #FF0;
+}
+
+p {
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 5px;
+    border-left: 5px solid;
+}
+
+.one {
+    border-left-color: #e91e63;
+}
+
+.two {
+    visibility: hidden;
+}
+
+.three {
+    border-left-color: #009688;
+}
