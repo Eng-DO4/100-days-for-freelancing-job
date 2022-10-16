@@ -10,7 +10,7 @@ The road to catch your first client in 100 days
 |   |          |imp ass from Elzero Academy|1hr
 |004|15/10/2022|to CSS vid from Elzero on Youtube|2hr
 |   |          |imp ass from Elzero Academy|2hr
-|005|16/10/2022|
+|005|16/10/2022|imp ass from Elzero Academy|4hr
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
