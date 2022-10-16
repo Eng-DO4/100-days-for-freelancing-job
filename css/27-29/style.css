@@ -1,0 +1,36 @@
+.container {
+    background-color: #eee;
+    width: 800px;
+    padding-bottom: 15px;
+}
+
+.part {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #dddddd;
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.full {
+    width: calc(100% - 30px);
+}
+
+.half {
+    width: calc((100% - 45px) / 2);
+}
+
+.third {
+    width: calc((100% - 60px) / 3);
+}
+
+.quarter {
+    width: calc((100% - 75px) / 4);
+}
+
+p {
+    clear: both;
+}
