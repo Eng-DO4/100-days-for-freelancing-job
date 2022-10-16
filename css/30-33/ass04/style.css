@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    color: #fff;
+    background-color: #404040;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.link1 {
+    background-color: #e91e63;
+}
+
+.link2 {
+    background-color: #03a9f4;
+}
