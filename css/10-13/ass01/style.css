@@ -1,0 +1,11 @@
+.child>.title {
+    color: #f00;
+}
+
+.parent>.title {
+    color: #00f;
+}
+
+p {
+    color: #0f0;
+}
