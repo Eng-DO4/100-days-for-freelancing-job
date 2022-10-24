@@ -1,0 +1,124 @@
+.ass1 {
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    counter-increment: count;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    border: 2px solid #000;
+    box-shadow: -5px -5px 2px #e91e63, 5px 5px 2px #2196f3;
+    position: relative;
+}
+
+.ass1::before {
+    content: counter(count);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin: -10px -10px 0 0;
+}
+
+.ass1::after {
+    content: "Element";
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    margin: -9px -50px 0 0;
+}
+
+.ass2 {
+    width: 100px;
+    height: 100px;
+    background-color: #efefef;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-top-left-radius: 10px 20%;
+    border-bottom-right-radius: 10px 20%;
+    box-shadow: inset 5px 5px 10px #828282, inset -5px -5px 10px #828282;
+}
+
+.parent {
+    width: 550px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.card {
+    display: inline-block;
+    margin: 0 30px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.title {
+    background-color: #03a9f4;
+    width: 100px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.price {
+    background-color: #dddddd;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.basic::after {
+    content: "Free";
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    margin: -9px -50px 0 0;
+}
+
+.pro::after {
+    content: "$30";
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    margin: -9px -50px 0 0;
+}
+
+.parent::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #03a9f4;
+    right: 50%;
+    margin-right: -1px;
+}
+
+.parent::after {
+    content: "or";
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #03a9f4;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: -10px -10px 0 0;
+}
