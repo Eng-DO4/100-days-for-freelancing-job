@@ -8,7 +8,7 @@ The road to catch your first client in 100 days
 |002|13/10/2022|Some imp HTML ass from Elzero Academy|2hrs
 |003|14/10/2022|to 16 CSS vid from Elzero on Youtube|1hr
 |   |          |imp ass from Elzero Academy|1hr
-|004|15/10/2022|to 34 CSS vid from Elzero on Youtube|2hr
+|004|15/10/2022|to 33 CSS vid from Elzero on Youtube|1hr
 |   |          |imp ass from Elzero Academy|2hr
 |005|16/10/2022|imp ass from Elzero Academy|4hr
 |006|17/10/2022|to 37 CSS vid from Elzero on Youtube|30min
