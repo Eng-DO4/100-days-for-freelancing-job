@@ -1,0 +1,24 @@
+.parent {
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px 0;
+    background-color: #f2f2f4;
+    text-transform: capitalize;
+    transition: margin-top 0.5s ease 0s;
+}
+
+.child {
+    padding: 30px;
+    background-color: #dededc;
+    transition: margin-top 0.5s ease 0.5s;
+}
+
+.parent:hover {
+    margin-top: 0;
+}
+
+.child:hover {
+    margin-top: 30px;
+}
