@@ -22,10 +22,14 @@ The road to catch your first client in 100 days
 |013|24/10/2022|to 45 CSS vid from Elzero on Youtube|30min
 |   |          |imp ass from Elzero Academy|3hr
 |014|25/10/2022||
+|015|26/10/2022||
+|016|27/10/2022|to 52 CSS vid from Elzero on Youtube|15min
+|   |          |imp ass from Elzero Academy (not complete)|1hr
+|017|28/10/2022|imp ass from Elzero Academy (now complete)|2.5hrs
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/html/) for HTML
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/) for CSS
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/git/learn.txt) for Git & GitHub
-- 
+- [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/46-52/holy-grail/) for Holy Grail
