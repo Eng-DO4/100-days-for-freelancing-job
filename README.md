@@ -28,7 +28,7 @@ The road to catch your first client in 100 days
 |017|28/10/2022|imp ass from Elzero Academy (now complete)|2.5hrs
 |   |          |video 53: soln of all flexbox froggy game|5mins
 |   |          |flexbox froggy game for learning flex|30mins
-|029|29/10/2022|to 56 CSS vid from Elzero on Youtube|20mins
+|018|29/10/2022|to 56 CSS vid from Elzero on Youtube|20mins
 |   |          |imp ass from Elzero Academy|4hrs
 
 ## Table of Content (TOC)
