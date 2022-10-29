@@ -9,9 +9,9 @@ The road to catch your first client in 100 days
 |003|14/10/2022|to 16 CSS vid from Elzero on Youtube|1hr
 |   |          |imp ass from Elzero Academy|1hr
 |004|15/10/2022|to 33 CSS vid from Elzero on Youtube|1hr
-|   |          |imp ass from Elzero Academy|2hr
-|005|16/10/2022|imp ass from Elzero Academy|4hr
-|006|17/10/2022|to 37 CSS vid from Elzero on Youtube|30min
+|   |          |imp ass from Elzero Academy|2hrs
+|005|16/10/2022|imp ass from Elzero Academy|4hrs
+|006|17/10/2022|to 37 CSS vid from Elzero on Youtube|30mins
 |   |          |imp ass from Elzero Academy|1hr
 |007|18/10/2022||
 |008|19/10/2022||
@@ -19,17 +19,17 @@ The road to catch your first client in 100 days
 |010|21/10/2022||
 |011|22/10/2022||
 |012|23/10/2022||
-|013|24/10/2022|to 45 CSS vid from Elzero on Youtube|30min
-|   |          |imp ass from Elzero Academy|3hr
+|013|24/10/2022|to 45 CSS vid from Elzero on Youtube|30mins
+|   |          |imp ass from Elzero Academy|3hrs
 |014|25/10/2022||
 |015|26/10/2022||
-|016|27/10/2022|to 52 CSS vid from Elzero on Youtube|15min
+|016|27/10/2022|to 52 CSS vid from Elzero on Youtube|15mins
 |   |          |imp ass from Elzero Academy (not complete)|1hr
 |017|28/10/2022|imp ass from Elzero Academy (now complete)|2.5hrs
-|   |          |video 53: soln of all flexbox froggy game|5min
-|   |          |flexbox froggy game for learning flex|30min
-|029|29/10/2022|to 52 CSS vid from Elzero on Youtube|10min
-|   |          ||
+|   |          |video 53: soln of all flexbox froggy game|5mins
+|   |          |flexbox froggy game for learning flex|30mins
+|018|29/10/2022|to 56 CSS vid from Elzero on Youtube|20mins
+|   |          |imp ass from Elzero Academy|4hrs
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
