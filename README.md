@@ -26,8 +26,10 @@ The road to catch your first client in 100 days
 |016|27/10/2022|to 52 CSS vid from Elzero on Youtube|15min
 |   |          |imp ass from Elzero Academy (not complete)|1hr
 |017|28/10/2022|imp ass from Elzero Academy (now complete)|2.5hrs
-|   |          |video soln of all flexbox froggy game|5min
+|   |          |video 53: soln of all flexbox froggy game|5min
 |   |          |flexbox froggy game for learning flex|30min
+|029|29/10/2022|to 52 CSS vid from Elzero on Youtube|10min
+|   |          ||
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
