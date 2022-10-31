@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --mainPadding: 20px;
+    --color: #fff;
+}
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "head head head head head"
+                         "sec sec sec sec side"
+                         "foot foot foot foot foot";
+}
+
+header {
+    grid-area: head;
+    background-color: #03a9f4;
+    padding: var(--mainPadding, 20px);
+    color: var(--color);
+}
+
+header::after {
+    content: "Header";
+}
+
+section {
+    grid-area: sec;
+    background-color: #ff5722;
+    padding: var(--mainPadding, 20px);
+    color: var(--color);
+}
+
+section::after {
+    content: "Section";
+}
+
+aside {
+    grid-area: side;
+    background-color: #607d8b;
+    padding: var(--mainPadding, 20px);
+    color: var(--color);
+}
+
+aside::after {
+    content: "Aside";
+}
+
+footer {
+    grid-area: foot;
+    background-color: #009688;
+    padding: var(--mainPadding, 20px);
+    color: var(--color);
+}
+
+footer::after {
+    content: "Footer";
+}

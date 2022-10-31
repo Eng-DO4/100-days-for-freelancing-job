@@ -1,0 +1,19 @@
+.grid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    align-content: space-between;
+}
+
+.grid>div {
+    background-color: #e91e63;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+}
