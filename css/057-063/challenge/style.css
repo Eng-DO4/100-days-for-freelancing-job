@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px 10px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #fc5825;
+    position: relative;
+}
+
+.card::after {
+    content: "\"";
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    color: #b3b3b3;
+    font-size: 30px;
+}
+
+.first {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.third {
+    background-color: #000;
+    color: #fff;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.forth {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.fifth {
+    background-color: #000;
+    color: #fff;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sixth {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.eighth {
+    background-color: #000;
+    color: #fff;
+}
+
+.card>.name {
+    font-size: 20px;
+}
+
+.card>.jobtitle {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.bold {
+    font-weight: 600;
+}
