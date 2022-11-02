@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    perspective: 400vh;
+}
+
+.ass1{
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    background-color: #ff5722;
+}
+
+.ass1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    background-color: #ff5722;
+    transform: translate(-50%, -50%) skew(10deg, 10deg);
+    z-index: -1;
+}
+
+.ass1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    right: 50%;
+    background-color: #ff5722;
+    transform: translate(50%, -50%) skew(-10deg, -10deg);
+    z-index: -2;
+}
+
+.ass2 {
+    color: #fff;
+    width: 150px;
+    padding: 20px 20px 20px 0;
+    text-align: right;
+    position: relative;
+    background-color: #009688;
+}
+
+.ass2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #009688;
+    transform: translate(-6%) skew(15deg);
+    z-index: -2;
+}
+
+.ass2::after {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    top: 0;
+    left: 6%;
+    background-color: #fff;
+    transform: skew(15deg);
+}
+
+.ass4 {
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: #607d8b;
+    border-bottom: 5px solid #000;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.ass4::before {
+    content: "Elzero";
+    color: #fff;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 5px;
+}
+
+.ass4::after {
+    content: "";
+    width: 68%;
+    height: 70%;
+    background-color: #000;
+    border: 5px solid #fff;
+    border-top: none;
+    border-left: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(45deg);
+}
+
+.ass5 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease 0.2s;
+}
+
+.y:hover {
+    transform: rotateY(-180deg);
+}
+
+.x:hover {
+    transform: rotateX(-180deg);
+}
+
+.ass5::before {
+    content: "Front";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fa3664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    backface-visibility: hidden;
+}
+
+.ass5::after {
+    content: "Back";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #009688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.x::after {
+    transform: rotateX(180deg);
+}
