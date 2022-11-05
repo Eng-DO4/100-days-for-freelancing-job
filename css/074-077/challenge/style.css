@@ -1,0 +1,117 @@
+body {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 400px;
+    justify-content: space-evenly;
+}
+
+body>div {
+    background-color: #333;
+}
+
+.l {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 350px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.l>div {
+    background-color: #fff;
+}
+
+.e {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 125px 125px;
+    justify-content: flex-end;
+    align-content: space-evenly;
+    position: relative;
+}
+
+.e>div {
+    background-color: #fff;
+}
+
+.l::after {
+    content: "";
+    background-color: #fea604;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    animation-name: in-l;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.e::after {
+    content: "";
+    background-color: #fea604;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    animation-name: in-e;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes in-l {
+    7% {
+        transform: translate(-250px, 0);
+    }
+    15% {
+        transform: translate(-250px, -350px);
+        opacity: 1;
+    }
+    20% {
+        transform: translate(-250px, -350px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-250px, -350px);
+        opacity: 0;
+    }
+}
+
+@keyframes in-e {
+    20% {
+        transform: translate(0, 0);
+    }
+    27.5% {
+        transform: translate(-250px, 0);
+    }
+    31.25% {
+        transform: translate(-250px, 175px);
+    }
+    38.75% {
+        transform: translate(0, 175px);
+    }
+    46.25% {
+        transform: translate(-250px, 175px);
+    }
+    50% {
+        transform: translate(-250px, 350px);
+    }
+    57.5% {
+        transform: translate(0, 350px);
+    }
+    65% {
+        transform: translate(-250px, 350px);
+    }
+    72.5% {
+        transform: translate(-250px, 0);
+    }
+    80% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
