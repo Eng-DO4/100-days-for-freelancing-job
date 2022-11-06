@@ -1,0 +1,42 @@
+.arrow {
+    background-color: #ddd;
+    margin: 30px;
+    position: relative;
+    padding: 20px;
+}
+
+.arrow::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+}
+
+.top::after {
+    border-bottom: 15px solid #ddd;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.right::after {
+    border-left: 15px solid #ddd;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(100%, -50%);
+}
+.bottom::after {
+    border-top: 15px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+.left::after {
+    border-right: 15px solid #ddd;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+}
