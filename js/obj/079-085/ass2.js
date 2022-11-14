@@ -1,0 +1,22 @@
+// Method One
+// Create Your Object Here
+const objMethodOne = {property: "Method One"};
+console.log(objMethodOne.property); // "Method One"
+
+// Method Two
+// Create Your Object Here
+const objMethodTwo = {};
+objMethodTwo.property = "Method Two";
+console.log(objMethodTwo.property); // "Method Two"
+
+// Method Three
+// Create Your Object Here
+const objMethodThree = new Object();
+objMethodThree["property"] = "Method Three";
+console.log(objMethodThree.property); // "Method Three"
+
+// Method Four
+// Create Your Object Here
+const objMethodFour = Object.create({});
+objMethodFour.property = "Method Four";
+console.log(objMethodFour.property); // "Method Four"
