@@ -86,7 +86,7 @@ The road to catch your first client in 100 days
 |053|03/12/2022||
 |054|04/12/2022||
 |055|05/12/2022|to 101 JS vid from Elzero on Youtube|30mins
-|055|05/12/2022|imp ass from Elzero Academy|30mins
+|   |          |imp ass from Elzero Academy|30mins
 |056|06/12/2022|imp ass from Elzero Academy|1hrs
 |057|07/12/2022|imp ass from Elzero Academy|1hrs
 |   |          |to 101 JS vid from Elzero on Youtube|30mins
