@@ -26,7 +26,7 @@ function addClass (e) {
 
 function removeClass (e) {
     if (remove.value !== undefined) {
-        const tempList = (add.value).split(' ');
+        const tempList = (remove.value).split(' ');
         const arrList = tempList.map(e => e.toLowerCase())
         arrList.forEach(oneClass => {
             if (oneClass !== '') {
