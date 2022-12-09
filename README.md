@@ -102,3 +102,4 @@ The road to catch your first client in 100 days
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/046-052/holy-grail/) for Holy Grail
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/057-063/challenge/) for Challenge 1
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/074-077/challenge/) for Challenge 2
+- [Link](https://eng-do4.github.io/100-days-for-freelancing-job/js/) for JS
