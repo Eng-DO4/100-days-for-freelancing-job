@@ -1,4 +1,3 @@
-import './App.css';
 import NavBar from './NavBar';
 import Home from './Home';
 
@@ -7,7 +6,9 @@ function App() {
     <div className="App">
       {/* <NavBar> => will not work */}
       <NavBar /> {/* <NavBar></NavBar> => also works */}
-      <Home />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
