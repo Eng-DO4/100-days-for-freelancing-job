@@ -6,9 +6,7 @@ function App() {
     <div className="App">
       {/* <NavBar> => will not work */}
       <NavBar /> {/* <NavBar></NavBar> => also works */}
-      <div className="content">
-        <Home />
-      </div>
+      <Home />
     </div>
   );
 }
