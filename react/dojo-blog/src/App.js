@@ -8,6 +8,12 @@ function App() {
       <NavBar /> {/* <NavBar></NavBar> => also works */}
       <div className="content">
         <Home />
+        <footer style={{
+          position: 'fixed',
+          bottom: 0,
+          backgroundColor: '#333',
+          color: '#ddd'
+        }}>Moustafa Yasser &copy; 2022</footer>
       </div>
     </div>
   );
