@@ -3,15 +3,21 @@ import BlogList from './BlogList';
 
 const Home = () => {
 
-    const [blogs] = useState([
+    const [blogs, setBlogs] = useState([
         { title: 'My new website', body: 'lorem ipsum...', author: 'DR4', id: 1 }, 
         { title: 'Hello Programming', body: 'lorem ipsum...', author: 'DO4', id: 2 }, 
         { title: 'Front-End Web Development', body: 'lorem ipsum...', author: 'Moustafa', id: 3 }, 
     ]);
 
+    // we declare it here and call it there to interact directly with data
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+
     return (
         <div className="home">
-            <BlogList blogs={blogs} title='All Blogs!'/> {/* using seperate files is better */}
+            <BlogList blogs={blogs} title='All Blogs!' handleDelete={handleDelete}/>
             <BlogList blogs={blogs.filter(blog => blog.author === 'Moustafa')} title="Moustafa's Blog!"/> {/* using seperate files is better */}
         </div>
     );
