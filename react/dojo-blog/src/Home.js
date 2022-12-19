@@ -12,6 +12,7 @@ const Home = () => {
     return (
         <div className="home">
             <BlogList blogs={blogs} title='All Blogs!'/> {/* using seperate files is better */}
+            <BlogList blogs={blogs.filter(blog => blog.author === 'Moustafa')} title="Moustafa's Blog!"/> {/* using seperate files is better */}
         </div>
     );
 }
