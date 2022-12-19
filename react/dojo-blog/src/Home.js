@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import BlogList from './BlogList';
 
 const Home = () => {
 
@@ -10,18 +11,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            {/* 
-            => DRY => Don't repeat yourself
-            => if we used 3 divs to do the task that means we hard code it 
-            => we need it to be reactive 
-            */}
-            {blogs.map((blog) => (
-                <div className="blog-preview" key={blog.id}> {/* react use key to track changes */} 
-                    <h2>{ blog.title }</h2>
-                    <p>Written by: {blog.author}</p>
-                    <br />
-                </div>
-            ))}
+            <BlogList blogs={blogs} title='All Blogs!'/> {/* using seperate files is better */}
         </div>
     );
 }
