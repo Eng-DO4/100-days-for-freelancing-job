@@ -4,8 +4,7 @@ import Home from './Home';
 function App() {
   return (
     <div className="App">
-      {/* <NavBar> => will not work */}
-      <NavBar /> {/* <NavBar></NavBar> => also works */}
+      <NavBar />
       <Home />
     </div>
   );
