@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'; // don't forget to import it first
 import BlogList from './BlogList';
 
 const Home = () => {
@@ -15,10 +15,11 @@ const Home = () => {
         setBlogs(newBlogs);
     }
 
+    useEffect( _ => console.log('a change in dom')); // print in console with any change in dom
+
     return (
         <div className="home">
             <BlogList blogs={blogs} title='All Blogs!' handleDelete={handleDelete}/>
-            <BlogList blogs={blogs.filter(blog => blog.author === 'Moustafa')} title="Moustafa's Blog!"/> {/* using seperate files is better */}
         </div>
     );
 }
