@@ -5,21 +5,32 @@ const Home = () => {
 
     const [blogs, setBlogs] = useState(null);
     const [isPending, setIsPending] = useState(true);
+    const [error, setError] = useState(null);
 
     useEffect( _ => {
         setTimeout( _ => {
             fetch('http://localhost:8000/blogs')
-             .then(res => res.json())
-             .then(data => {
+            .then(res => {
+                if (!res.ok) throw Error('Could not fetch the data for that resource');
+                return res.json();
+            })
+            .then(data => {
                 setBlogs(data);
-                setIsPending(false)
-        })}, 1000)}, []); // I want it one time only after loading the page
+                setIsPending(false);
+                setError(null);
+            })
+            .catch(err => {
+                setIsPending(false);
+                setError(err.message);
+            });
+        }, 1000);
+    }, []);
 
     return (
         <div className="home">
+            { error && <div>{ error }</div>}
             { isPending && <div>Loading...</div>}
-            {/* <BlogList blogs={blogs} title='All Blogs!'/> => will not work and gets an error */}
-            { blogs && <BlogList blogs={blogs} title='All Blogs!'/> } {/* && => checks left side first */}
+            { blogs && <BlogList blogs={blogs} title='All Blogs!'/> }
         </div>
     );
 }
