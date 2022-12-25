@@ -55,3 +55,9 @@
   color: #0075ff;
   margin-bottom: 8px;
 }
+
+.create {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}

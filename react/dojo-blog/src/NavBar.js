@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <nav className='navbar'>
             <h1>This is the Navigation Bar</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/create">New Blog</a> {/* This won't work before routing */}
+                <Link to="/">Home</Link>
+                <Link to="/create">New Blog</Link> {/* This won't work before routing */}
             </div>
         </nav>
     )
