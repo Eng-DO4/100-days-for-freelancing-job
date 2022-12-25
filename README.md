@@ -116,6 +116,12 @@ The road to catch your first client in 100 days
 |070|20/12/2022||
 |071|21/12/2022|to 15 ReactJS vid from Net Ninja on Youtube|15mins
 |   |          |follow steps after watching videos|30mins
+|072|22/12/2022|||
+|073|23/12/2022|||
+|074|24/12/2022|to 19 ReactJS vid from Net Ninja on Youtube|15mins
+|   |          |follow steps after watching videos|1hr
+|075|25/12/2022|to 22 ReactJS vid from Net Ninja on Youtube|30mins
+|   |          |follow steps after watching videos|2hrs
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
