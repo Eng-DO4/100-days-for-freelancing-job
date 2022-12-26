@@ -9,11 +9,11 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Switch>
+        <Switch> {/* should surrond the routes */}
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route path='/create'>
+          <Route path='/create'> {/* note that /create/m will lead to the same result without exact */}
             <Create />
           </Route>
         </Switch>
