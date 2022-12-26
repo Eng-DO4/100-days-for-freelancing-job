@@ -7,6 +7,7 @@ const useFetch = (url) => { // yes it's a function
     const [error, setError] = useState(null);
 
     useEffect( _ => {
+        const abortCont = new AbortController(); // to avoid fetching data error while choose another route
         setTimeout( _ => {
             fetch(url)
             .then(res => {
@@ -19,11 +20,16 @@ const useFetch = (url) => { // yes it's a function
                 setError(null);
             })
             .catch(err => {
-                setIsPending(false);
-                setError(err.message);
+                if (err.name === 'AbortError') {
+                    console.log('abort'); // idea of a cleanup fuction to prevent showing error message
+                } else {
+                    setIsPending(false);
+                    setError(err.message);
+                }
             });
         }, 1000);
-    }, []);
+        return abortCont.abort();
+    }, [url]);
 
     return { data, isPending, error }; // returning an object to use destructuring and get vars 
 }
