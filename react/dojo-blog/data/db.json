@@ -1,16 +1,22 @@
 {
-    "blogs": [
-        {
-            "title": "My new website",
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut quos quaerat molestias. Suscipit eveniet, ipsa rem dicta vitae vero sequi aliquam voluptates assumenda, cum error similique veritatis ad et!",
-            "author": "DR4",
-            "id": 1
-        }, 
-        {
-            "title": "Hello Programming",
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut quos quaerat molestias. Suscipit eveniet, ipsa rem dicta vitae vero sequi aliquam voluptates assumenda, cum error similique veritatis ad et!",
-            "author": "DO4",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut quos quaerat molestias. Suscipit eveniet, ipsa rem dicta vitae vero sequi aliquam voluptates assumenda, cum error similique veritatis ad et!",
+      "author": "DR4",
+      "id": 1
+    },
+    {
+      "title": "Hello Programming",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut quos quaerat molestias. Suscipit eveniet, ipsa rem dicta vitae vero sequi aliquam voluptates assumenda, cum error similique veritatis ad et!",
+      "author": "DO4",
+      "id": 2
+    },
+    {
+      "title": "The first added blog",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut quos quaerat molestias. Suscipit eveniet, ipsa rem dicta vitae vero sequi aliquam voluptates assumenda, cum error similique veritatis ad et!",
+      "author": "DR4",
+      "id": 3
+    }
+  ]
 }
