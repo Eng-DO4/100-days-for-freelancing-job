@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 const Create = () => {
     // storing inputed values in variables
@@ -6,6 +7,7 @@ const Create = () => {
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('DR4');
     const [isPending, setIsPending] = useState(false);
+    const history = useHistory();
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -16,6 +18,8 @@ const Create = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)
         }).then( _ => { setIsPending(false); });
+        // history.go(1); // goes fwd in history
+        history.push('/'); // redirect to Home
     }
 
     return (
