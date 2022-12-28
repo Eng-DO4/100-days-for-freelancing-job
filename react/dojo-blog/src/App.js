@@ -11,17 +11,17 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Switch> {/* should surrond the routes */}
+        <Switch>
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path='/create'> {/* note that /create/m will lead to the same result without exact */}
+          <Route exact path='/create'>
             <Create />
           </Route>
-          <Route exact path='/blogs/:id'> {/* the name we use after : is the param in query */}
+          <Route exact path='/blogs/:id'>
             <BlogDetails />
           </Route>
-          <Route path='*'> {/* in the last as if the prev didn't match */}
+          <Route path='*'>
             <NotFound />
           </Route>
         </Switch>

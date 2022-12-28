@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 
-// This is a custom hook to be usable multiple of times
-const useFetch = (url) => { // yes it's a function
-    const [data, setBlogs] = useState(null); // use data word as general as I'll use it more in different code
+const useFetch = (url) => {
+    const [data, setBlogs] = useState(null);
     const [isPending, setIsPending] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect( _ => {
-        const abortCont = new AbortController(); // to avoid fetching data error while choose another route
+        const abortCont = new AbortController();
         setTimeout( _ => {
             fetch(url)
             .then(res => {
@@ -21,7 +20,7 @@ const useFetch = (url) => { // yes it's a function
             })
             .catch(err => {
                 if (err.name === 'AbortError') {
-                    console.log('abort'); // idea of a cleanup fuction to prevent showing error message
+                    console.log('abort');
                 } else {
                     setIsPending(false);
                     setError(err.message);
@@ -31,7 +30,7 @@ const useFetch = (url) => { // yes it's a function
         return abortCont.abort();
     }, [url]);
 
-    return { data, isPending, error }; // returning an object to use destructuring and get vars 
+    return { data, isPending, error };
 }
 
 export default useFetch;

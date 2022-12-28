@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
 const Create = () => {
-    // storing inputed values in variables
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('DR4');
@@ -18,8 +17,7 @@ const Create = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)
         }).then( _ => { setIsPending(false); });
-        // history.go(1); // goes fwd in history
-        history.push('/'); // redirect to Home
+        history.push('/');
     }
 
     return (
@@ -29,7 +27,7 @@ const Create = () => {
                 <div className="title-field">
                     <label htmlFor="blog-title">Blog Title</label>
                     <input type="text" name="title" id="blog-title" required value={title} 
-                     onChange={ e => setTitle(e.target.value) } /> {/* this func updates the value */}
+                     onChange={ e => setTitle(e.target.value) } />
                 </div>
                 <div className="body-field">
                     <label htmlFor="blog-body">Blog Body</label>
@@ -45,7 +43,7 @@ const Create = () => {
                     </select>
                 </div>
                 { !isPending && <button>Add</button> }
-                { isPending && <button disabled>Add</button> } {/* disables the button till the blog added */}
+                { isPending && <button disabled>Add</button> }
             </form>
         </div>
     );
