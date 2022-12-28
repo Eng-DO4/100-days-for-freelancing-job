@@ -103,7 +103,8 @@ label {
   margin: 10px 0;
 }
 
-form button {
+form button, .blog-details button {
+  margin: 10px 0;
   font-size: 16px;
   float: right;
   border: none;
@@ -112,7 +113,7 @@ form button {
   width: 100px;
 }
 
-form button:hover {
+form button:hover, .blog-details button:hover {
   background-color: #0075ff;
   color: #fafafa;
   cursor: pointer;
