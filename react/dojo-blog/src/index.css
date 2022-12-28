@@ -33,11 +33,17 @@ a {
   padding: 10px;
 }
 
+.navbar a:nth-child(2):hover {
+  border-radius: 10px;
+  background-color: #0075ff;
+  color: #f2f2f2;
+}
+
 .navbar a:hover {
   color: #0075ff;
 }
 
-.home, .blog-details {
+.home, .create, .blog-details {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -59,12 +65,55 @@ a {
   margin-bottom: 8px;
 }
 
-.create {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-}
-
 article>p {
   margin-bottom: 10px;
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create h2 {
+  color: #0075ff;
+}
+
+.create form {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.title-field,
+.body-field,
+.author-field {
+  margin: 20px 0;
+}
+
+label {
+  margin-right: 20px;
+}
+
+.title-field input {
+  width: 250px;
+}
+
+.body-field textarea {
+  display: block;
+  margin: 10px 0;
+}
+
+form button {
+  font-size: 16px;
+  float: right;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+form button:hover {
+  background-color: #0075ff;
+  color: #fafafa;
+  cursor: pointer;
 }
