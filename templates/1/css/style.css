@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
+:root {
+    --main-color: #10cab7;
+    --line-height: 1.5;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -11,11 +17,12 @@ body {
     margin: 0;
 }
 
-.head .container {
+.container {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -45,7 +52,7 @@ body {
     transition: width 0.3s ease 0.15s;
 }
 
-.head .links .icon:hover span:nth-child(2) {
+.head .links:hover .icon span:nth-child(2) {
     width: 100%;
 }
 
@@ -95,6 +102,59 @@ body {
 .head .links:hover ul {
     display: grid;
 }
+
+.landing {
+    background-image: url(../imgs/landing.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    max-width: 100%;
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+
+.landing p {
+    width: 50%;
+    line-height: var(--line-height);
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.features .card {
+    flex-basis: 100%;
+    padding: 20px 0;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+i {
+    color: var(--main-color);
+    font-size: 50px;
+}
+
+.features .card h3 {
+    font-weight: 800;
+}
+
+.features .card p {
+    text-align: center;
+    line-height: var(--line-height);
+}
+
+
 
 @media (min-width: 768px) {
     .container {
