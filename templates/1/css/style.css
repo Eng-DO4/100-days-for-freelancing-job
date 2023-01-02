@@ -11,6 +11,9 @@
     margin: 0;
     max-width: 100%;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: #f6f6f6;
@@ -281,6 +284,16 @@ h1 {
 .foot span {
     color: #10cab7;
     font-weight: 800;
+}
+
+.topBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    background-color: #2c4755;
 }
 
 @media (min-width: 700px) {
