@@ -89,8 +89,8 @@ i {
     position: relative;
 }
 .head .links .icon {
-    width: 40px;
-    height: 20px;
+    width: 2em;
+    height: 1em;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -98,15 +98,15 @@ i {
 }
 .head .links .icon span {
     background-color: #333;
-    height: 2px;
+    height: 0.1em;
     width: 100%;
     transition: width 0.3s ease 0.15s;
 }
 .head .links .icon span:first-child {
-    width: 35px;
+    width: 85%;
 }
 .head .links .icon span:nth-child(2) {
-    width: 25px;
+    width: 60%;
 }
 .head .links:hover .icon span {
     width: 100%;
@@ -114,7 +114,6 @@ i {
 .head .links ul {
     list-style: none;
     padding: 0;
-    background-color: #fcfcfc;
     position: absolute;
     top: 20px;
     right: 110px;
@@ -358,6 +357,9 @@ h1 {
     .container {
         margin: 0 80px;
     }
+    .logo {
+        width: 100px;
+    }
     .services .container .cards {
         width: 55vw;
     }
@@ -382,6 +384,9 @@ h1 {
     }
     .container {
         margin: 0 150px;
+    }
+    .logo {
+        width: 150px;
     }
     .special-heading h2 {
         font-size: 120px;
