@@ -132,6 +132,8 @@ The road to catch your first client in 100 days
 |080|30/12/2022|working on template one from Elzero Channel|5hrs
 |081|31/12/2022|working on template one from Elzero Channel|3hrs
 |   |          |working on template one from Elzero Channel|2hrs
+|082|1/1/2023|working on template one from Elzero Channel|4hrs
+|083|2/1/2023|working on template one from Elzero Channel|3hrs
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
