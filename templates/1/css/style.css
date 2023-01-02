@@ -105,21 +105,12 @@ i {
     width: 100%;
     transition: width 0.3s ease 0.15s;
 }
-.head .links .icon span:first-child {
-    width: 85%;
-}
-.head .links .icon span:nth-child(2) {
-    width: 60%;
-}
-.head .links:hover .icon span {
-    width: 100%;
-}
 .head .links ul {
     list-style: none;
     padding: 0;
     position: absolute;
-    top: 20px;
-    right: 110px;
+    top: 15px;
+    right: 115px;
     display: none;
     grid-template-columns: 150px;
     gap: 0.9px;
@@ -386,6 +377,10 @@ h1 {
     }
     .foot {
         font-size: 1.5em;
+    }
+    .topBtn {
+        bottom: 20px;
+        right: 20px;
     }
 }
 @media (min-width: 2000px) {
