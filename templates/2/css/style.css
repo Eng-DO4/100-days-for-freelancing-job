@@ -31,15 +31,25 @@ ul {
 header .container {
     position: relative;
 }
+header nav {
+    display: flex;
+    
+}
 header .icons {
     display: flex;
+    align-items: center;
 }
-header .icons i, hr {
+header .icons i {
     color: #eee;
     font-size: 20px;
+    padding: 0 10px;
+}
+header .icons i:last-child {
+    padding-right: 0;
+    border-left: 2px solid ;
     margin-left: 10px;
 }
-header .icons i:first-child:hover {
+header .icons i:hover {
     cursor: pointer;
 }
 header a>img {
