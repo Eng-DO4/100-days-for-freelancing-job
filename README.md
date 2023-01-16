@@ -141,6 +141,12 @@ The road to catch your first client in 100 days
 |088|07/01/2023|||
 |089|08/01/2023|||
 |090|09/01/2023|||
+|091|10/01/2023|||
+|092|11/01/2023|||
+|093|12/01/2023|||
+|094|13/01/2023|||
+|095|14/01/2023|||
+|096|15/01/2023|||
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
