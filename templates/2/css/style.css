@@ -39,6 +39,9 @@ header .icons i, hr {
     font-size: 20px;
     margin-left: 10px;
 }
+header .icons i:first-child:hover {
+    cursor: pointer;
+}
 header a>img {
     margin: 10px 0;
 }
