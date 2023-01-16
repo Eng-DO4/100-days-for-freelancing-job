@@ -129,11 +129,11 @@ The road to catch your first client in 100 days
 |078|28/12/2022|All ReactJS vid from Net Ninja on Youtube|30mins
 |   |          |follow steps after watching videos|3hrs
 |079|29/12/2022|||
-|080|30/12/2022|working on template one from Elzero Channel|5hrs
-|081|31/12/2022|working on template one from Elzero Channel|3hrs
-|   |          |working on template one from Elzero Channel|2hrs
-|082|01/01/2023|working on template one from Elzero Channel|4hrs
-|083|02/01/2023|working on template one from Elzero Channel|3hrs
+|080|30/12/2022|working on template one from a PSD|5hrs
+|081|31/12/2022|working on template one from a PSD|3hrs
+|   |          |working on template one from a PSD|2hrs
+|082|01/01/2023|working on template one from a PSD|4hrs
+|083|02/01/2023|working on template one from a PSD|3hrs
 |084|03/01/2023|||
 |085|04/01/2023|||
 |086|05/01/2023|||
@@ -147,6 +147,7 @@ The road to catch your first client in 100 days
 |094|13/01/2023|||
 |095|14/01/2023|||
 |096|15/01/2023|||
+|097|16/01/2023|working on template two from a PSD|5hrs
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
