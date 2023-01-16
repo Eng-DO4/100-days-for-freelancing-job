@@ -47,14 +47,21 @@ header a>img {
 }
 header ul a {
     color: #eee;
+    border-bottom: 1px solid transparent;
+
+}
+header ul a:hover, header ul a.active {
+    color: #19c8fa;
+    border-bottom-color: #19c8fa;
 }
 header .container::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
     width: 90vw;
     height: 1px;
     background-color: #eee;
+    z-index: -1;
 }
 
 @media (max-width: 799px) {
@@ -62,8 +69,8 @@ header .container::after {
         position: absolute;
         bottom: 0;
         left: 0;
-        transform: translate(0, calc(100% + 20px));
-        display: none;
+        transform: translate(0, 100%);
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -73,7 +80,7 @@ header .container::after {
     header ul a {
         display: block;
         width: 100%;
-        padding-bottom: 20px;
+        padding: 15px 0;
     }
 }
 @media (min-width: 800px) {
@@ -88,12 +95,11 @@ header .container::after {
     }
     header ul li {
         height: 60px;
-        display: flex;
     }
     header ul a {
         display: flex;
-        height: 100%;
+        height: 59px;
         align-items: center;
-        margin-left: 15px;
+        padding: 10px;
     }
 }
