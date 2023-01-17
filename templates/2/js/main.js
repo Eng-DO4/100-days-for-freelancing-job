@@ -2,7 +2,8 @@
 const toggle_icon = document.querySelector('.fa-bars');
 const menu = document.querySelector('header ul');
 const navLinks = document.querySelectorAll('header ul a');
-const logo = document.querySelector('header .logo')
+const logo = document.querySelector('header .logo');
+const slider_bullets = document.querySelectorAll('.bullets i');
 
 // media query condition
 let media = window.matchMedia("(max-width: 799px)")
@@ -26,5 +27,15 @@ navLinks.forEach(a => {
         navLinks.forEach(aClass => aClass.classList.remove('active'));
         a.classList.add('active');
         menu.style.display = media.matches ? 'none' : 'flex';
+    }
+})
+
+// sliding by bullets
+slider_bullets.forEach(i => {
+    i.onclick = _ => {
+        slider_bullets.forEach(iClass => iClass.classList.remove('fa-solid'));
+        slider_bullets.forEach(iClass => iClass.classList.add('fa-regular'));
+        i.classList.remove('fa-regular')
+        i.classList.add('fa-solid')
     }
 })
