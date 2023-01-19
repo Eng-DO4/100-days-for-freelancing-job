@@ -4,6 +4,7 @@ const menu = document.querySelector('header ul');
 const navLinks = document.querySelectorAll('header ul a');
 const logo = document.querySelector('header .logo');
 const slider_bullets = document.querySelectorAll('.bullets i');
+const shuffle = document.querySelectorAll('.shuffle li');
 
 // media query condition
 let media = window.matchMedia("(max-width: 799px)")
@@ -16,7 +17,7 @@ media.onchange = _ => {
 let toggle = _ => menu.style.display = (menu.style.display == 'none') ? 'flex' : 'none';
 toggle_icon.addEventListener('click', toggle);
 
-// hovering on nav links
+// clicking nav links
 logo.onclick = _ => {
     navLinks.forEach(aClass => aClass.classList.remove('active'));
     navLinks[0].classList.add('active');
@@ -33,9 +34,20 @@ navLinks.forEach(a => {
 // sliding by bullets
 slider_bullets.forEach(i => {
     i.onclick = _ => {
+        menu.style.display = media.matches ? 'none' : 'flex';
         slider_bullets.forEach(iClass => iClass.classList.remove('fa-solid'));
         slider_bullets.forEach(iClass => iClass.classList.add('fa-regular'));
         i.classList.remove('fa-regular')
         i.classList.add('fa-solid')
     }
 })
+
+// filtering images on portfolio
+shuffle.forEach(li => {
+    li.onclick = _ => {
+        shuffle.forEach(liClass => liClass.classList.remove('active'));
+        li.classList.add('active');
+    }
+})
+
+// 

@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+/* Global */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
+}
+:root {
+    --main-color: #19c8fa;
+    --secondary-color: #777;
 }
 html {
     scroll-behavior: smooth;
@@ -19,18 +24,75 @@ ul {
     list-style: none;
     padding: 0;
 }
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 28px;
+}
+.overlay {
+    background-color: #0009;
+    height: 100%;
+    position: relative;
+}
 .container {
     width: 80vw;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-i {
+.content {
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    transform: translate(0, 50%);
+    background-color: rgba(25, 201, 250, 0.4);
+    padding: 30px 5vw;
     color: #eee;
-    cursor: pointer;
+}
+.services, .portfolio {
+    padding: 100px 0;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.heading h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.heading h2::before {
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.heading h2::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #eee;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 2px solid #000;
+}
+.heading p {
+    color: var(--secondary-color);
+    line-height: 1.8;
 }
 
+
+/* Home */
+/* Background */
 .landing {
     background-color: black; /* temp */
     background-image: url(../imgs/landing.jpg);
@@ -38,12 +100,12 @@ i {
     background-repeat: no-repeat;
     height: 100vh;
 }
-.overlay {
-    background-color: #0009;
+.landing .overlay {
     height: 100vh;
 }
-
+/* Header */
 header .container {
+    flex-direction: row;
     position: relative;
 }
 header nav {
@@ -74,12 +136,12 @@ header ul a {
     border-bottom: 1px solid transparent;
 }
 header ul a:hover, header ul a.active {
-    color: #19c8fa;
+    color: var(--main-color);
     position: relative;
 }
 header ul a:hover::after, header ul a.active::after {
     content: '';
-    background-color: #19c8fa;
+    background-color: var(--main-color);
     width: 100%;
     height: 1px;
     position: absolute;
@@ -96,35 +158,24 @@ header .container::after {
     background-color: #eee;
     z-index: 0;
 }
-
-.landing .content{
-    height: 70vh;
-    position: relative;
-}
-.landing .content .text{
-    background-color: rgba(25, 201, 250, 0.4);
-    padding: 5vh 5vw;
-    color: #eee;
-    position: absolute;
-    bottom: 10vh;
-}
-.landing .content h2 {
-    margin-bottom: 10px;
-}
+/* Landing */
 .landing .content h3 {
-    margin: 10px 0;
+    margin: 20px 0 15px;
+    font-size: 22px;
+    font-weight: normal;
 }
 .landing .content p {
-    line-height: 1.3;
-    text-align: justify;
+    line-height: 1.5;
 }
-
+/* Slider */
 .sliding {
     position: absolute;
     bottom: 50%;
     transform: translate(0, 50%);
     z-index: 1212;
     font-weight: 800;
+    cursor: pointer;
+    color: #eee;
 }
 .fa-angle-left {
     left: 2vw;
@@ -152,9 +203,91 @@ header .container::after {
 }
 .bullets i {
     padding: 5px;
-    color: #19c8fa;
+    color: var(--main-color);
+    cursor: pointer;
 }
 
+
+/* Services */
+.services .cards {
+    display: grid;
+    gap: 50px 60px;
+}
+.services .card {
+    text-align: center;
+}
+.services .card i {
+    margin-bottom: 20px;
+}
+.services .card h3 {
+    color: var(--main-color);
+}
+.services .card p {
+    margin-top: 15px;
+    color: var(--secondary-color);
+    line-height: 1.8;
+}
+
+
+/* Separator1 - design */
+.design {
+    background-color: black; /* temp */
+    background-image: url(../imgs/design-features.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.design .content {
+    padding-top: 30px 0;
+}
+.design ul li {
+    padding: 30px 0 0 30px;
+    position: relative;
+}
+.design ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f108";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+}
+
+
+/* Portfolio */
+.shuffle {
+    display: flex;
+}
+.shuffle li {
+    padding: 10px;
+    margin: 0 5px;
+}
+.shuffle li:hover, .shuffle li.active {
+    cursor: pointer;
+    color: #eee;
+    background-color: var(--main-color);
+}
+/* images */
+/* .images {
+    
+}
+.image {
+    height: 20px;
+} */
+/* Link for more */
+.portfolio>a {
+    display: block;
+    width: fit-content;
+    background-color: var(--main-color);
+    color: #eee;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 20px auto 0;
+}
+
+
+/* RWD */
 @media (max-width: 799px) {
     header ul {
         position: absolute;
@@ -173,7 +306,7 @@ header .container::after {
     header ul a {
         display: block;
         width: 100%;
-        padding: 15px 0;
+        padding: 15px 5px;
         transition: padding-left 0.3s;
     }
     header ul a.active, header ul a:hover {
@@ -202,7 +335,21 @@ header .container::after {
         align-items: center;
         padding: 10px;
     }
-    .landing .content .text{
-        width: 57vw;
+    .content {
+        width: 55vw;
+    }
+    .services .cards {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+    .services .card {
+        text-align: left;
+        display: flex;
+    }
+    .services .card i {
+        margin-right: 40px;
+    }
+    .design .content {
+        left: 50%;
+        transform: translate(-50%, 50%);
     }
 }
