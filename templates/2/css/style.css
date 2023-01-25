@@ -89,6 +89,15 @@ h2 {
     color: var(--secondary-color);
     line-height: 1.8;
 }
+.btn {
+    display: block;
+    width: fit-content;
+    background-color: var(--main-color);
+    color: #eee;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0 auto;
+}
 
 
 /* Home */
@@ -268,22 +277,71 @@ header .container::after {
     color: #eee;
     background-color: var(--main-color);
 }
-/* images */
-/* .images {
-    
+/* models */
+.portfolio .models {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px 10px;
 }
-.image {
-    height: 20px;
-} */
-/* Link for more */
-.portfolio>a {
-    display: block;
-    width: fit-content;
-    background-color: var(--main-color);
-    color: #eee;
-    text-transform: uppercase;
-    padding: 15px;
-    margin: 20px auto 0;
+.portfolio .model {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .model .image img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+.portfolio .model .caption {
+    width: 100%;
+    min-height: 15%;
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.5;
+    transition: bottom 0.3s;
+}
+.portfolio .model .caption span:last-child {
+    font-weight: 700;
+    color: var(--main-color);
+}
+.portfolio .model:hover .image img {
+    transform: scale(1.2) rotate(5deg);
+}
+.portfolio .model:hover .caption{
+    bottom: 0;
+}
+
+
+/* separator2 - video */
+.separator .video {
+    position: relative;
+}
+.separator .video video {
+    width: 100%;
+}
+.separator .video::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0009;
+}
+.separator .content {
+    text-align: center;
+}
+.separator .text p {
+    margin: 20px 0 30px;
+}
+.separator a.btn {
+    background-color: #000;
 }
 
 
@@ -351,5 +409,8 @@ header .container::after {
     .design .content {
         left: 50%;
         transform: translate(-50%, 50%);
+    }
+    .separator .content {
+        width: 100%;
     }
 }
