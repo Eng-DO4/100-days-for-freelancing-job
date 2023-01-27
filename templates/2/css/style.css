@@ -362,7 +362,7 @@ header .container::after {
 .about .rwd-fig img {
     margin-bottom: -80px;
 }
-/* design */
+/* separator3 - design */
 .about .design {
     background-image: url('../imgs/stats.png');
 }
@@ -504,6 +504,30 @@ header .container::after {
 .progress[data-skill="php"]::before, 
 .progress[data-skill="php"]::after {
     left: var(--php);
+}
+
+
+/* separator4 - design */
+.about + .design {
+    background-image: url(../imgs/quote.jpg);
+}
+/* separator4 - design */
+.about + .design .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    background-color: #000b;
+}
+.about + .design q {
+    font-size: 28px;
+    color: #eee;
+}
+.about + .design .signature {
+    font-size: 20px;
+    color: #eee;
+    align-self: flex-end;
 }
 
 
