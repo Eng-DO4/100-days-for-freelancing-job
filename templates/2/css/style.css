@@ -10,6 +10,10 @@
 :root {
     --main-color: #19c8fa;
     --secondary-color: #777;
+    --adobe: 90%;
+    --html: 85%;
+    --js: 80%;
+    --php: 90%;
 }
 html {
     scroll-behavior: smooth;
@@ -28,6 +32,9 @@ h2 {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 28px;
+}
+img {
+    width: 100%;
 }
 .overlay {
     background-color: #0009;
@@ -51,7 +58,7 @@ h2 {
     padding: 30px 5vw;
     color: #eee;
 }
-.services, .portfolio {
+.services, .portfolio, .about {
     padding: 100px 0;
 }
 .heading {
@@ -78,7 +85,7 @@ h2 {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #eee;
+    background-color: #fff;
     position: absolute;
     bottom: -20px;
     left: 50%;
@@ -345,7 +352,179 @@ header .container::after {
 }
 
 
+/* About */
+.about {
+    padding-bottom: 0;
+}
+.about .rwd-fig {
+    overflow: hidden;
+}
+.about .rwd-fig img {
+    margin-bottom: -80px;
+}
+/* design */
+.about .design {
+    background-image: url('../imgs/stats.png');
+}
+.about .design .overlay {
+    background-color: #000b;
+}
+.about .design .text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+.box .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .quantity {
+    font-size: 2em;
+    margin: 10px 0;
+}
+/* testmonials */
+.heading h3 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.testmonials, .skills {
+    position: relative;
+    padding: 70px 0 50px;
+}
+.client {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 20px;
+    gap: 20px;
+}
+.avatar {
+    margin-top: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-self: center;
+}
+.signature {
+    margin: 10px 0;
+    text-align: end;
+    color: #777;
+    font-weight: 700;
+}
+/* skills */
+.skill {
+    margin-bottom: 40px;
+}
+.skill>span {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.progress {
+    height: 35px;
+    position: relative;
+}
+.progress::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #000;
+    position: absolute;
+    top: -10px;
+    transform: translate(-50%);
+}
+.progress::after {
+    content: attr(data-percentage);
+    background-color: #000;
+    color: #eee;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    transform: translate(-50%);
+}
+.progress[data-skill="adobe"] {
+    background-image: linear-gradient(
+        to right, 
+        var(--main-color) var(--adobe), 
+        #dedadc var(--adobe)
+    );
+}
+.progress[data-skill="adobe"]::before, 
+.progress[data-skill="adobe"]::after {
+    left: var(--adobe);
+}
+.progress[data-skill="html"] {
+    background-image: linear-gradient(
+        to right, 
+        var(--main-color) var(--html), 
+        #dedadc var(--html)
+    );
+}
+.progress[data-skill="html"]::before, 
+.progress[data-skill="html"]::after {
+    left: var(--html);
+}
+.progress[data-skill="js"] {
+    background-image: linear-gradient(
+        to right, 
+        var(--main-color) var(--js), 
+        #dedadc var(--js)
+    );
+}
+.progress[data-skill="js"]::before, 
+.progress[data-skill="js"]::after {
+    left: var(--js);
+}
+.progress[data-skill="php"] {
+    background-image: linear-gradient(
+        to right, 
+        var(--main-color) var(--php), 
+        #dedadc var(--php)
+    );
+}
+.progress[data-skill="php"]::before, 
+.progress[data-skill="php"]::after {
+    left: var(--php);
+}
+
+
 /* RWD */
+@media (max-width: 500px) {
+    .separator .content h2, .separator .content p {
+        display: none;
+    }
+    .about .rwd-fig img {
+        margin-bottom: -35px;
+    }
+    .about .design {
+        height: 900px;
+    }
+    .about .design .text {
+        flex-flow: column nowrap;
+    }
+    .box {
+        margin: 30px 0;
+    }
+}
 @media (max-width: 799px) {
     header ul {
         position: absolute;
@@ -372,6 +551,9 @@ header .container::after {
     }
     .overlay>i {
         display: none;
+    }
+    .box {
+        flex-basis: 46%;
     }
 }
 @media (min-width: 800px) {
@@ -412,5 +594,21 @@ header .container::after {
     }
     .separator .content {
         width: 100%;
+    }
+    .about .design .content {
+        width: 100%;
+    }
+    .client {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: calc(1fr + 20px);
+        align-items: flex-start;
+    }
+}
+@media (min-width: 1000px) {
+    .about .container:last-of-type {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 }
