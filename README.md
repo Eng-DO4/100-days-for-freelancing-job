@@ -160,6 +160,7 @@ The road to catch your first client in 100 days
 |107|26/01/2023|||
 |108|27/01/2023|working on template two from a PSD|5hrs
 |109|28/01/2023|working on template two from a PSD|3hrs
+|110|29/01/2023|working on template two from a PSD|1.5hrs
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
