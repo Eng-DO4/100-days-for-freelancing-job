@@ -36,6 +36,9 @@ h2 {
 img {
     width: 100%;
 }
+input, textarea {
+    outline: none;
+}
 .overlay {
     background-color: #0009;
     height: 100%;
@@ -58,7 +61,7 @@ img {
     padding: 30px 5vw;
     color: #eee;
 }
-.services, .portfolio, .about, .pricing {
+.services, .portfolio, .about, .pricing, .contacts {
     padding: 100px 0;
 }
 .heading {
@@ -246,7 +249,7 @@ header .container::after {
 
 
 /* Separator1 - design */
-.design {
+.design, .footer {
     background-color: black; /* temp */
     background-image: url(../imgs/design-features.jpg);
     background-size: cover;
@@ -634,7 +637,7 @@ header .container::after {
 
 
 /* separator5 - design */
-.pricing + .design {
+.pricing + .design, .footer {
     background-image: url(../imgs/subscribe.jpg);
     background-position: left;
 }
@@ -678,6 +681,101 @@ header .container::after {
     margin-top: 50px;
     font-size: 1.4em;
     line-height: 1.5;
+}
+
+
+/* Contacts */
+/* Form */
+.contacts .form-info {
+    width: 100%;
+    display: grid;
+}
+.contacts form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px;
+}
+.contacts form input, 
+.contacts form textarea {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contacts form input[type="text"], 
+.contacts form input[type="email"] {
+    width: 100%;
+}
+.contacts form input[type="submit"]{
+    align-self: flex-end;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+/* contact-info */
+.contacts .contact-info {
+    order: -1;
+}
+.contacts .contact-info, 
+.contacts .contact-info .address, 
+.contacts .contact-info .phone-nums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contacts .contact-info h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.contacts .contact-info address, 
+.contacts .contact-info a {
+    color: var(--secondary-color);
+}
+
+
+/* Footer */
+.footer .overlay {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+}
+.footer img {
+    display: block;
+    width: 120px;
+}
+/* Social icons */
+.social {
+    width: 200px;
+    text-align: center;
+    margin: 30px 0;
+}
+.footer .social h3 {
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.footer .social-icons {
+    padding: 30px 0;
+}
+.footer .social-icons i {
+    margin-right: 20px;
+    transition: background-color 0.3s;
+}
+.footer .social-icons i:last-of-type {
+    margin-right: 0;
+}
+/* copyrights */
+.footer .copyrights span {
+    color: var(--main-color);
+    font-weight: 600;
 }
 
 
@@ -776,6 +874,23 @@ header .container::after {
         grid-template-columns: auto 1fr;
         grid-template-rows: calc(1fr + 20px);
         align-items: flex-start;
+    }
+    .contacts .form-info {
+        grid-template-columns: 1fr auto;
+        gap: 30px;
+    }
+    .contacts .contact-info {
+        order: 1;
+    }
+    .contacts .contact-info, 
+    .contacts .contact-info .address, 
+    .contacts .contact-info .phone-nums {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .contacts .contact-info h3 {
+        padding: 0;
+        padding-bottom: 20px;
     }
 }
 @media (min-width: 1000px) {
