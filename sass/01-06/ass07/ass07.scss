@@ -1,0 +1,19 @@
+$size: 20px;
+.box {
+    h2, p {
+        font-size: $size;
+    }
+}
+
+$max-media1: "max-width: 575px";
+@media ($max-media1) {
+    $size: 16px;
+    .box {
+        h2, p {
+            font-size: $size;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}

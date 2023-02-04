@@ -1,0 +1,20 @@
+// 1st way
+.class { 
+    >.child {
+        padding: 10px;
+    }
+}
+
+// 2nd way
+%main-padding {
+    padding: 10px;
+}
+.class>.padding {
+    @extend %main-padding;
+}
+
+// 3rd way
+$my-padding: 10px;
+.class>.padding {
+    padding: $my-padding;
+}

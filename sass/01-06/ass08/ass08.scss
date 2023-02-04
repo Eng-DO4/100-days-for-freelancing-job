@@ -1,0 +1,14 @@
+:root{
+  --red: #e91e63;
+  --green: #009688;
+}
+
+$link-hover: var(--red);
+$link-color: var(--green);
+
+.box a {
+  color: $link-color;
+  &:hover {
+    color: $link-hover;
+  }
+}

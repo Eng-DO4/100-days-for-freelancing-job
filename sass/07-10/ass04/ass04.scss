@@ -1,0 +1,11 @@
+// SASS Code
+$number: 10;
+$color: red;
+$theme: light;
+
+// Write If Condition Code Here
+
+// Output
+.class {
+    color: if($number > 5 and $color == red and $theme not dark, green, red);
+}
