@@ -1,5 +1,6 @@
 # 100-days-for-freelancing-job
 The road to catch your first client in 100 days
+the more techniques u learn
 
 |Day|Date|Achivements|Time
 |:-:|:--:|:----------|:---
@@ -161,6 +162,12 @@ The road to catch your first client in 100 days
 |108|27/01/2023|working on template two from a PSD|5hrs
 |109|28/01/2023|working on template two from a PSD|3hrs
 |110|29/01/2023|working on template two from a PSD|1.5hrs
+|111|30/01/2023|||
+|112|31/01/2023|||
+|113|01/02/2023|||
+|114|02/02/2023|||
+|115|03/02/2023|All SASS vid from Elzero on Youtube|1.5hrs|
+|116|04/02/2023|some imp SASS ass from Elzero Academy|3hrs|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
