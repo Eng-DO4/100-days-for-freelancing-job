@@ -174,7 +174,7 @@ From now It's 150 days not only 100 days
 |117|05/02/2023|||
 |118|06/02/2023|||
 |119|07/02/2023|All PugJS vid from Elzero on Youtube|1.5hrs|
-|   |          |some imp SASS ass from Elzero Academy|3hrs|
+|120|08/02/2023|All SASS ass from Elzero Academy|2hrs|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
