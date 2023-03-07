@@ -2,6 +2,8 @@
 * {
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;
+    margin: 0;
+    overflow: hidden;
 }
 :root {
     --main-color: #2196f3;
@@ -86,7 +88,6 @@ ul.main-nav {
 }
 .main-nav>li {
     padding: 0 20px;
-    overflow: hidden;
 }
 @media (min-width: 500px) {
     ul.main-nav {
@@ -199,6 +200,120 @@ header a.logo,
 
 
 /************ Landing ************/
+.landing {
+    height: calc(100vh - 150px);
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+@media (min-width: 500px) {
+    .landing {
+        height: calc(100vh - 100px);
+    }
+}
+@media (min-width: 768px) {
+    .landing {
+        height: calc(100vh - 80px);
+    }
+}
+.landing .description {
+    text-align: center;
+}
+.landing h2 {
+    word-spacing: 5px;
+    letter-spacing: -1px;
+}
+.landing p {
+    color: #666;
+    line-height: 1.2;
+}
+.landing::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 500px solid transparent;
+    border-bottom: 50px solid #fff;
+    border-right: 500px solid #fff;
+    background-color: #ececec;
+    z-index: 12;
+}
+@media (min-width: 768px) {
+    .landing::after {
+        border-left: 1000px solid transparent;
+        border-right: 1000px solid #fff;
+    }
+}
+@media (min-width: 992px) {
+    .landing::after {
+        border-left-width: 1500px;
+        border-right-width: 1500px;
+    }
+}
+@media (min-width: 1400px) {
+    .landing::after {
+        border-left-width: 2000px;
+        border-right-width: 2000px;
+    }
+}
+.landing .image {
+    display: none;
+}
+@media (min-width: 992px) {
+    .landing {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    .landing .description {
+        text-align: left;
+        flex-basis: 40%;
+    }
+    .landing .image {
+        display: block;
+        width: 500px;
+        animation: vertical-motion 5s linear 0s infinite;
+    }
+}
+@keyframes vertical-motion {
+    0%, 50%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-30px);
+    }
+    75% {
+        transform: translateY(30px);
+    }
+}
+a.down {
+    color: var(--main-color);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    animation: up-down 2s ease 0s infinite;
+    z-index: 1212;
+}
+@keyframes up-down {
+    20%, 60%, 80%, 100% {
+        transform: translate(-50%, 0);
+    }
+    40%, 70%, 90% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+/************ Features ************/
 
 
 /* @media (min-width: 576px) {
