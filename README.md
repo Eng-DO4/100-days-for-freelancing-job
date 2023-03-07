@@ -1,10 +1,6 @@
 # 100-days-for-freelancing-job
 The road to catch your first client in 100 days
 
-It's important to learn more to be special in freelancing
-
-From now It's 150 days not only 100 days
-
 |Day|Date|Achivements|Time|
 |:-:|:--:|:----------|:---|
 |000|18/09/2022|Some Git&GitHub Commands to track my road in 100 days|2hrs|
@@ -175,14 +171,41 @@ From now It's 150 days not only 100 days
 |118|06/02/2023|||
 |119|07/02/2023|All PugJS vid from Elzero on Youtube|1.5hrs|
 |120|08/02/2023|All SASS ass from Elzero Academy|2hrs|
+|121|09/02/2023|||
+|122|10/02/2023|||
+|123|11/02/2023|||
+|124|12/02/2023|||
+|125|13/02/2023|||
+|126|14/02/2023|||
+|127|15/02/2023|||
+|128|16/02/2023|||
+|129|17/02/2023|||
+|130|18/02/2023|||
+|131|19/02/2023|||
+|132|20/02/2023|||
+|133|21/02/2023|||
+|134|22/02/2023|||
+|135|23/02/2023|||
+|136|24/02/2023|||
+|137|25/02/2023|||
+|138|26/02/2023|||
+|139|27/02/2023|||
+|140|28/02/2023|||
+|141|01/03/2023|||
+|142|02/03/2023|||
+|143|03/03/2023|||
+|144|04/03/2023|||
+|145|05/03/2023|||
+|146|06/03/2023|working on template three from elzero web school|1hr|
+|147|07/03/2023|working on template three from elzero web school|2.5hrs|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/git/learn.txt) for Git & GitHub Notices
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/html/) for HTML Models
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/) for CSS Stylings
-    <!-- - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/js/) for JS Code samples -->
-    <!-- - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/react/) for ReactJS Projects -->
-    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/templates/) for templates from a PSD
-    <!-- - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/sass/) for Sass learning -->
-    <!-- - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/pug/) for PugJS learning -->
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/js/) for JS Code samples
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/react/) for ReactJS Projects
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/templates/) for templates
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/sass/) for Sass learning
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/pug/) for PugJS learning
