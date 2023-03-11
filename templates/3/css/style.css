@@ -11,7 +11,7 @@
     --sec-color: #ececec;
 }
 .container {
-    padding: 80px 20px 50px;
+    padding: 80px 20px;
     margin: 0 auto;
 }
 @media (min-width: 576px) {
@@ -637,6 +637,57 @@ a.down {
 
 
 /************ testmonials ************/
+.testmonials {
+    position: relative;
+}
+.testmonials::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--sec-color);
+    top: 0;
+    left: 0;
+    z-index: -1212;
+}
+.testmonials .box {
+    background-color: #fff;
+    padding: 20px 30px;
+}
+.testmonials .box .member {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+.testmonials .member .avatar {
+    background-color: var(--sec-color);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testmonials .member .avatar i {
+    color: #666;
+}
+.testmonials .member span {
+    display: block;
+}
+.testmonials .member span.name {
+    font-weight: 700;
+}
+.testmonials .member span.job-title {
+    color: #666;
+}
+.testmonials .rating i.colored {
+    color: #ffc107;
+}
+
+
+
+/************ Team Members ************/
 
 
 
