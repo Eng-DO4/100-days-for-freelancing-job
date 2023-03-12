@@ -202,7 +202,9 @@ The road to catch your first client in 100 days
 |149|09/03/2023|working on template three from elzero web school|5hrs|
 |150|10/03/2023|working on template three from elzero web school|2hrs|
 |151|11/03/2023|working on template three from elzero web school|5hrs|
-|152|12/03/2023|working on template three from elzero web school|1hrs|
+|152|12/03/2023|working on template three from elzero web school|1hr|
+|   |          |working on template five from elzero web school|1hr|
+|   |          |to 6 Vue.JS vid from Elzero on Youtube|1hr|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
@@ -211,6 +213,7 @@ The road to catch your first client in 100 days
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/) for CSS Stylings
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/js/) for JS Code samples
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/react/) for ReactJS Projects
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/vue/) for VueJS learning
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/templates/) for templates
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/sass/) for Sass learning
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/pug/) for PugJS learning
