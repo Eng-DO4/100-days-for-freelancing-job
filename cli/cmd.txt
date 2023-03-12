@@ -1,0 +1,16 @@
+dir = ls
+move = mv
+rm -d (for empty)
+>>
+>
+grep
+grep -r -l
+file
+tasklist
+man = /?
+file
+whoami
+ping 
+| clip
+for more visit ss64.com
+e. = explorer
