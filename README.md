@@ -203,7 +203,7 @@ The road to catch your first client in 100 days
 |150|10/03/2023|working on template three from elzero web school|2hrs|
 |151|11/03/2023|working on template three from elzero web school|5hrs|
 |152|12/03/2023|working on template three from elzero web school|1hr|
-|   |          |working on template five from elzero web school|1hr|
+|   |          |working on Bootstrap5 template one from elzero web school|4hr|
 |   |          |to 6 Vue.JS vid from Elzero on Youtube|1hr|
 
 ## Table of Content (TOC)
