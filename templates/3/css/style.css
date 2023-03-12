@@ -654,13 +654,13 @@ a.down {
     background-color: #fff;
     padding: 20px 30px;
 }
-.testmonials .box .member {
+.testmonials .box .test {
     display: flex;
     align-items: center;
     gap: 20px;
     padding-bottom: 15px;
 }
-.testmonials .member .avatar {
+.testmonials .test .avatar {
     background-color: var(--sec-color);
     width: 80px;
     height: 80px;
@@ -669,16 +669,16 @@ a.down {
     justify-content: center;
     align-items: center;
 }
-.testmonials .member .avatar i {
+.testmonials .test .avatar i {
     color: #666;
 }
-.testmonials .member span {
+.testmonials .test span {
     display: block;
 }
-.testmonials .member span.name {
+span.name {
     font-weight: 700;
 }
-.testmonials .member span.job-title {
+.testmonials .test span.job-title {
     color: #666;
 }
 .testmonials .rating i.colored {
@@ -688,6 +688,58 @@ a.down {
 
 
 /************ Team Members ************/
+.members .box {
+    position: relative;
+}
+.members .box::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: calc(100% + 30px);
+    background-color: #6662;
+    right: -10px;
+    top: -20px;
+    border-radius: 10px;
+    z-index: -12;
+    transition: width 0.3s ease;
+}
+.members .box:hover::after {
+    width: calc(100% - 15px);
+}
+.members .box .member {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.members .box .member .image {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: filter 0.3s ease;
+}
+.members .box:hover .member .image {
+    filter: grayscale();
+}
+.members .box .member .social-icons {
+    display: flex;
+    flex-direction: column;
+}
+.members .box .member .social-icons i {
+    color: #666;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.members .box .member .social-icons i:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+.members .box .description {
+    padding-left: 50px;
+}
+
+
+
+/************ Services ************/
 
 
 
