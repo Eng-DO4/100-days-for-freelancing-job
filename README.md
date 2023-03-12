@@ -208,6 +208,7 @@ The road to catch your first client in 100 days
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/cli/cmd.txt) for CLI & cmd Notices
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/git/learn.txt) for Git & GitHub Notices
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/html/) for HTML Models
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/) for CSS Stylings
