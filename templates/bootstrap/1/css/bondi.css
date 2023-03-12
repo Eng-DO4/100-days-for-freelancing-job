@@ -1,0 +1,38 @@
+:root {
+    --main-color: #19283f;
+    --sec-color: #33d1cc;
+    --red: #ff3150;
+    --yelow: #ffc400;
+    --gray: #a8b9c0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+svg { /* was <i> before */
+    color: var(--sec-color);
+}
+.navbar-toggler svg {
+    color: #fff;
+}
+.navbar-toggler:hover svg {
+    color: var(--sec-color);
+}
+.navbar {
+    background-color: var(--main-color);
+}
+button.navbar-toggler:focus {
+    box-shadow: none;
+}
+a.nav-link {
+    color: var(--gray);
+}
+a.nav-link.active, a.nav-link:hover, a.nav-link:focus {
+    color: var(--sec-color);
+}
+.search {
+    border-left: 1px solid var(--sec-color);
+}
+a.btn.rounded-pill {
+    background-color: var(--red);
+    color: var(--yelow);
+}

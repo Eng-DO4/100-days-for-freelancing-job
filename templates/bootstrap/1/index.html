@@ -10,10 +10,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="bondi.css">
+    <link rel="stylesheet" href="css/bondi.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="imgs/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navLinks" 
+                    aria-controls="navLinks" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse mt-2 mb-2" id="navLinks">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-3">
+                        <a href="#" class="nav-link p-2 p-lg-3 active">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="" class="nav-link p-2 p-lg-3">Services</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="" class="nav-link p-2 p-lg-3">Portfolio</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="" class="nav-link p-2 p-lg-3">About</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a href="" class="nav-link p-2 p-lg-3">Contacts</a>
+                    </li>
+                </ul>
+                <div class="search d-none d-lg-block pe-2 ps-4 me-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a href="" class="btn rounded-pill main-btn mt-2 mt-lg-0 p-2 ps-3 pe-3 ps-lg-4 pe-lg-4">Login</a>
+            </div>
+        </div>
+    </nav>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
 </body>
