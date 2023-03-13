@@ -2,8 +2,9 @@
     --main-color: #19283f;
     --sec-color: #33d1cc;
     --red: #ff3150;
-    --yelow: #ffc400;
+    --yellow: #ffc400;
     --gray: #a8b9c0;
+    --alt-color: #eff7fa;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,6 +14,7 @@ svg { /* was <i> before */
 }
 .navbar-toggler svg {
     color: #fff;
+    transition: color 0.3s ease;
 }
 .navbar-toggler:hover svg {
     color: var(--sec-color);
@@ -34,7 +36,7 @@ a.nav-link.active, a.nav-link:hover, a.nav-link:focus {
 }
 a.btn.rounded-pill {
     background-color: var(--red);
-    color: var(--yelow);
+    color: var(--yellow);
 }
 .landing {
     height: 100vh;
@@ -45,4 +47,34 @@ h1 {
 }
 h1 + p {
     color: var(--gray);
+}
+.heading::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: var(--sec-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.heading h2 + p {
+    color: gray;
+}
+svg.number {
+    color: var(--alt-color);
+}
+svg.floaty-icon {
+    bottom: 10px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.feat h4 {
+    color: var(--yellow);
+}
+.feat h4 + p {
+    color: var(--gray);
+}
+.portfolio {
+    background-color: var(--alt-color);
 }
