@@ -36,3 +36,13 @@ a.btn.rounded-pill {
     background-color: var(--red);
     color: var(--yelow);
 }
+.landing {
+    height: 100vh;
+    background-color: var(--main-color);
+}
+h1 {
+    color: #fff;
+}
+h1 + p {
+    color: var(--gray);
+}
