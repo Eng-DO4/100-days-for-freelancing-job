@@ -204,7 +204,8 @@ The road to catch your first client in 100 days
 |151|11/03/2023|working on template three from elzero web school|5hrs|
 |152|12/03/2023|working on template three from elzero web school|1hr|
 |   |          |working on Bootstrap5 template one from elzero web school|4hr|
-|   |          |to 6 Vue.JS vid from Elzero on Youtube|1hr|
+|   |          |to 6 Vue.JS vid from Elzero on Youtube|1.5hrs|
+|153|13/03/2023|working on Bootstrap5 template one from elzero web school|1.5hr|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
