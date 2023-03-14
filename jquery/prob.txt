@@ -1,0 +1,9 @@
+problem1:
+alert has a problem as a callbackfunc:
+    $(document).ready(function(){
+        $(p).hide(3000, alert("p element is now hidden"))
+    })
+
+Question1:
+Should dblclick() be 2 successive clicks on whole doc or it only sees the element?
+

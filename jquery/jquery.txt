@@ -1,0 +1,84 @@
+################################################################################################
+
+JQuery is a JS Lib
+
+<script src="prod.min.js"></script>
+- for using it
+- compressed
+
+"dev.js" file for developing JQuery lib
+- for developing it
+- uncompressed
+
+################################################################################################
+
+$ --------------> JQuery
+() -------------> inside it write the selector
+.ready() -------> differ from .onload() as the last waits media loading
+this -----------> refers to the element meaned by the selector
+
+################################################################################################
+
+we start with this ..
+    $(document).ready( function(){} )
+after appending the 2 script elements (prod , mine) in the HTML file
+
+################################################################################################
+
+.hide(speed, callbackfunc(){})
+        displayed -> disappears gradually (opacity decrement) -> display: none; // inline style
+
+.show(speed, callbackfunc(){})
+        undisplayed -> appears gradually (opacity increment) -> display: block; // inline style
+
+.toggle(speed, callbackfunc(){})
+        works as show or hide depending on the element status
+
+- it's not acually speed it's time in ms but call it speed
+- we can use speed only without callbackfunc
+- default speed is 400ms
+- callbackfunc waits for the event totally happenes then starts and remains on that change
+
+################################################################################################
+
+.css("prop", "val")
+
+################################################################################################
+
+.click(func(){})
+.dblclick(func(){})
+
+.mouseenter(func(){})
+.mouseleave(func(){})
+- the element remains on the change done by that func
+
+.hover(func1(){}, func2(){})
+- 1st is for mouse enter
+- last is for mouse leave
+- we can write the first one only
+- if we used the 2 funcs the element changes as following:
+    normal -> change by func1 -> change by func2 -> remains as func2
+
+################################################################################################
+
+.fadeIn(speed, callbackfunc)
+        should be undisplayed -> appears gradually (opacity increment) -> display: block;
+.fadeOut(speed, callbackfunc)
+        displayed -> disappears gradually (opacity decrement) -> display: none;
+.fadeToggle(speed, callbackfunc)
+
+.fadeTo(speed, opacity, callbackfunc)
+        should be undisplayed -> appears gradually (opacity increment to disered val)
+        or
+        should be displayed -> disappears gradually (opacity decrement to disered val)
+        depending on the disered val compared with the normal val of opacity
+
+################################################################################################
+
+.slideUp(speed, callbackfunc)
+        should be displayed -> appears gradually (height decrement) -> display: none;
+.slideDown(speed, callbackfunc)
+        should be undisplayed -> appears gradually (height increment) -> display: block;
+.slideToggle
+
+################################################################################################
