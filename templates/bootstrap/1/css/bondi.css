@@ -22,7 +22,7 @@ svg { /* was <i> before */
 .navbar {
     background-color: var(--main-color);
 }
-button.navbar-toggler:focus {
+button.navbar-toggler:focus, .btn:focus {
     box-shadow: none;
 }
 a.nav-link {
@@ -52,7 +52,7 @@ h1 + p {
     content: "";
     position: absolute;
     width: 100px;
-    height: 1px;
+    height: 2px;
     background-color: var(--sec-color);
     bottom: 0;
     left: 50%;
@@ -77,4 +77,45 @@ svg.floaty-icon {
 }
 .portfolio {
     background-color: var(--alt-color);
+}
+.shuffel a.btn.rounded-pill {
+    color: var(--gray);
+    background-color: var(--alt-color);
+    transition: all 0s ease;
+}
+.shuffel a.btn.rounded-pill:hover, .shuffel a.btn.rounded-pill.active {
+    color: var(--yellow);
+    background-color: var(--red);
+}
+.achv .img-holder {
+    overflow: hidden;
+}
+.achv .img-holder::before, .achv .img-holder::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    left: 0;
+    background-color: var(--sec-color);
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.achv .img-holder::before {
+    top: 0;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+.achv .img-holder::after {
+    bottom: 0;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+.achv .img-holder:hover::before{
+    content: "Awesome Work";
+    width: 100%;
+}
+.achv .img-holder:hover::after {
+    content: attr(data-work);
+    width: 100%;
 }
