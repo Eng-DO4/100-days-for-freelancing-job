@@ -206,11 +206,13 @@ The road to catch your first client in 100 days
 |   |          |working on Bootstrap5 template one from elzero web school|4hr|
 |   |          |to 6 Vue.JS vid from Elzero on Youtube|1.5hrs|
 |153|13/03/2023|working on Bootstrap5 template one from elzero web school|1.5hr|
+|154|14/03/2023|to 16 WordPress vid from Elzero on Youtube|2hrs|
+|   |          |to 6 JQuery vid from Elzero on Youtube|2hrs|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
-    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/cli/cmd.txt) for CLI & cmd Notices
-    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/git/learn.txt) for Git & GitHub Notices
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/cli/cmd.txt) for CLI & cmd Notes
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/git/learn.txt) for Git & GitHub Notes
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/html/) for HTML Models
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/css/) for CSS Stylings
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/js/) for JS Code samples
@@ -219,4 +221,6 @@ The road to catch your first client in 100 days
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/templates/) for templates
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/dashboards/) for dashboards
     - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/sass/) for Sass learning
-    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/pug/) for PugJS learning
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/pug/pug.txt) for PugJS Notes
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/jquery/wordpress.txt) for WordPress Notes
+    - [Link](https://eng-do4.github.io/100-days-for-freelancing-job/jquery/jquery.txt) for JQuery Notes
