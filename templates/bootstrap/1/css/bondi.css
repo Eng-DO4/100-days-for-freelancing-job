@@ -59,7 +59,10 @@ h1 + p {
     transform: translateX(-50%);
 }
 .heading h2 + p {
-    color: gray;
+    color: var(--gray);
+}
+.heading + p {
+    color: var(--gray);
 }
 svg.number {
     color: var(--alt-color);
@@ -87,7 +90,7 @@ svg.floaty-icon {
     color: var(--yellow);
     background-color: var(--red);
 }
-.achv .img-holder {
+.img-holder {
     overflow: hidden;
 }
 .achv .img-holder::before, .achv .img-holder::after {
@@ -97,6 +100,7 @@ svg.floaty-icon {
     height: 50%;
     left: 0;
     background-color: var(--sec-color);
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     transition: all 0.3s ease;
@@ -118,4 +122,57 @@ svg.floaty-icon {
 .achv .img-holder:hover::after {
     content: attr(data-work);
     width: 100%;
+}
+.stuff .text p {
+    color: var(--gray);
+}
+.team {
+    background-color: var(--alt-color);
+}
+.team h2 {
+    color: var(--yellow);
+}
+.team h2 + p {
+    color: var(--gray);
+}
+.member .img-holder::before, .member .img-holder::after {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    left: 0;
+    padding: 10px 20px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.member .img-holder::before {
+    content: attr(data-name);
+    background-color: var(--sec-color);
+    font-size: 1.3em;
+    color: #fff;
+    top: 0;
+    transform: translateY(-150%);
+}
+.member .img-holder::after {
+    content: "“" attr(data-des) "”";
+    background-color: #19283f;
+    color: var(--gray);
+    bottom: 0;
+    font-weight: normal;
+    transform: translateY(150%);
+}
+.member .img-holder:hover::before, .member .img-holder:hover::after {
+    transform: translateY(0);
+}
+.project {
+    background-color: var(--main-color);
+    min-height: 400px;
+}
+.project h2 {
+    color: #fff;
+}
+.project p {
+    color: var(--gray);
+}
+.stories-btn {
+    width: fit-content;
 }
