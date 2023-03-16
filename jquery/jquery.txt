@@ -16,6 +16,16 @@ $ --------------> JQuery
 () -------------> inside it write the selector
 .ready() -------> differ from .onload() as the last waits media loading
 this -----------> refers to the element meaned by the selector
+var ------------> to declare a variable
+                        - better performance (faster as will search one time for the element)
+                        - ex: var div = $(".div")
+
+we can use one-line-code format or mutible lines with indentations for the same selector or var
+The 2nd choice is prefered if u want to use one-line-comments (//)
+
+for multible funcs on the same selector
+        - css() is done first
+        - other functions are done ordered and in the desired time
 
 ################################################################################################
 
@@ -41,7 +51,9 @@ after appending the 2 script elements (prod , mine) in the HTML file
 
 ################################################################################################
 
-.css("prop", "val")
+.css('prop', 'val')
+.css({prop: 'val'})
+- u can't define a speed/t or a callbackfunc
 
 ################################################################################################
 
