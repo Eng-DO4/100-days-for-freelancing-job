@@ -176,3 +176,51 @@ svg.floaty-icon {
 .stories-btn {
     width: fit-content;
 }
+.art .img-holder {
+    box-shadow: 1px 1px 10px rgba(25, 40, 63, 0.5);
+    border-radius: 10px;
+}
+.art .img-holder::before, .art .img-holder::after {
+    position: absolute;
+    padding: 10px 20px;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.art .img-holder::before {
+    content: attr(data-date);
+    bottom: 30px;
+}
+.art .img-holder::after {
+    content: attr(data-title);
+    bottom: 0;
+}
+.art a.blog-btn {
+    top: 0;
+    right: 0;
+}
+.art a.blog-btn svg {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+}
+.subscribe {
+    background-color: var(--yellow);
+}
+.submit-btn {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    color: var(--yellow);
+}
+.submit-btn:hover {
+    color: #fff;
+}
+.subscribe input[type="email"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #fff;
+    caret-color: var(--main-color);
+}

@@ -112,8 +112,8 @@
                 <h2 class="mt-5">We made this</h2>
                 <p class="text-uppercase">prepare to be amazed</p>
             </div>
-            <div class="shuffel m-5">
-                <ul class="list-unstyled d-flex justify-content-center align-items-center">
+            <div class="shuffel mt-5 mb-5">
+                <ul class="list-unstyled d-flex flex-column flex-md-row flex-wrap justify-content-center align-items-center">
                     <li class="m-2">
                         <a href="" class="btn rounded-pill active">All</a>
                     </li>
@@ -227,23 +227,23 @@
                 </div>
             </div>
         </div>
-        <div class="container d-flex justify-content-around align-items-center pt-5">
-            <div class="img-holder client">
+        <div class="container d-flex justify-content-center align-items-center flex-wrap pt-5">
+            <div class="img-holder client col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center">
                 <img src="imgs/tech-1.png" alt="Client" class="img-fluid">
             </div>
-            <div class="img-holder client">
+            <div class="img-holder client col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center">
                 <img src="imgs/tech-2.png" alt="Client" class="img-fluid">
             </div>
-            <div class="img-holder client">
+            <div class="img-holder client col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center">
                 <img src="imgs/tech-3.png" alt="Client" class="img-fluid">
             </div>
-            <div class="img-holder client">
+            <div class="img-holder client col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center">
                 <img src="imgs/tech-4.png" alt="Client" class="img-fluid">
             </div>
-            <div class="img-holder client">
+            <div class="img-holder client col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center">
                 <img src="imgs/tech-1.png" alt="Client" class="img-fluid">
             </div>
-            <div class="img-holder client">
+            <div class="img-holder client col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center">
                 <img src="imgs/tech-2.png" alt="Client" class="img-fluid">
             </div>
         </div>
@@ -251,7 +251,7 @@
     <!-- separator -->
     <div class="project d-flex flex-column justify-content-center align-items-center">
         <h2 class="fw-normal fs-1 text-capitalize">Start your project now</h1>
-        <p class="mb-5">Leave your description and we start the engine. Don't worry, you can cancel anytime</p>
+        <p class="mb-5 text-center">Leave your description and we start the engine. Don't worry, you can cancel anytime</p>
         <a href="" class="btn rounded-pill sep-btn p-2 ps-5 pe-5">Start Project</a>
     </div>
     <!-- Blog -->
@@ -265,19 +265,22 @@
         </div>
         <div class="container">
             <div class="articles row mt-5 mb-5 d-flex justify-content-center align-items-center">
-                <div class="art col-sm-6 col-md-4 text-center">
-                    <div class="img-holder mb-3 bg-white position-relative fw-bold" data-date="January 17,2017" data-title="Short Awesome Title Here">
+                <div class="art col-sm-6 col-md-4">
+                    <div class="img-holder mb-3 bg-white position-relative fw-bold" data-date="January 17, 2017" data-title="Short Awesome Title">
                         <img src="imgs/art1.jpg" alt="Blog Article" class="img-fluid">
+                        <a href="" class="btn blog-btn position-absolute"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="art col-sm-6 col-md-4 text-center">
-                    <div class="img-holder mb-3 bg-white position-relative fw-bold" data-date="January 17,2017" data-title="Short Awesome Title Here">
+                <div class="art col-sm-6 col-md-4">
+                    <div class="img-holder mb-3 bg-white position-relative fw-bold" data-date="January 17, 2017" data-title="Short Awesome Title">
                         <img src="imgs/art2.jpg" alt="Blog Article" class="img-fluid">
+                        <a href="" class="btn blog-btn position-absolute"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="art col-sm-6 col-md-4 text-center">
-                    <div class="img-holder mb-3 bg-white position-relative fw-bold" data-date="January 17,2017" data-title="Short Awesome Title Here">
+                <div class="art col-sm-6 col-md-4">
+                    <div class="img-holder mb-3 bg-white position-relative fw-bold" data-date="January 17, 2017" data-title="Short Awesome Title">
                         <img src="imgs/art3.jpg" alt="Blog Article" class="img-fluid">
+                        <a href="" class="btn blog-btn position-absolute"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -285,7 +288,16 @@
         </div>
     </div>
     <!-- subscribe -->
-    
+    <div class="subscribe pt-4 pb-4">
+        <div class="container">
+            <form action="" class="d-flex flex-column flex-md-row flex-wrap justify-content-center align-items-center">
+                <label for="email" class="fw-bold me-md-3 mb-3 mb-md-0">Subscribe to our Newsletter:</label>
+                <input type="email" name="mail" id="email" class="p-2 col-8 col-md-5 text-center text-md-start me-md-3 mb-4 mb-md-0" placeholder="Enter email Address">
+                <input type="submit" value="Subscribe" class="btn submit-btn p-2 ps-5 pe-5">
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
 </body>
