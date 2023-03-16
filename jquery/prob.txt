@@ -7,3 +7,6 @@ alert has a problem as a callbackfunc:
 Question1:
 Should dblclick() be 2 successive clicks on whole doc or it only sees the element?
 
+Question2:
+What will happen if we used callbackfunc in animate() and stoped this animation with stop() in its different cases?
+
