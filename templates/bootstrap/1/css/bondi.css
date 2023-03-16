@@ -5,6 +5,11 @@
     --yellow: #ffc400;
     --gray: #a8b9c0;
     --alt-color: #eff7fa;
+    --facebook: #1877f2;
+    --twitter: #1da1f2;
+    --google-plus: #dd4b39;
+    --linkedIn: #0a66c2;
+    --gitHub: #333;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,6 +42,9 @@ a.nav-link.active, a.nav-link:hover, a.nav-link:focus {
 a.btn.rounded-pill {
     background-color: var(--red);
     color: var(--yellow);
+}
+a.btn.rounded-pill:hover {
+    color: #fff;
 }
 .landing {
     height: 100vh;
@@ -208,6 +216,7 @@ svg.floaty-icon {
 }
 .subscribe {
     background-color: var(--yellow);
+    color: var(--main-color);
 }
 .submit-btn {
     background-color: var(--main-color);
@@ -223,4 +232,47 @@ svg.floaty-icon {
     background-color: transparent;
     border-bottom: 3px solid #fff;
     caret-color: var(--main-color);
+}
+.subscribe input[type="email"]::placeholder {
+    font-weight: normal;
+}
+footer {
+    background-color: var(--main-color);
+    color: var(--gray);
+}
+footer p.copyrights span.temp-site {
+    color: var(--sec-color);
+}
+footer p.copyrights span.temp-name {
+    color: var(--yellow);
+}
+footer a {
+    text-decoration: none;
+    color: var(--gray);
+}
+footer a:hover {
+    color: #fff;
+}
+.social-links a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.social-links svg {
+    color: #fff;
+}
+a.facebook {
+    background-color: var(--facebook);
+}
+a.twitter {
+    background-color: var(--twitter);
+}
+a.google-plus {
+    background-color: var(--google-plus);
+}
+a.linked-in {
+    background-color: var(--linkedIn);
+}
+a.github {
+    background-color: var(--gitHub);
 }
