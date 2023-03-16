@@ -93,12 +93,31 @@ after appending the 2 script elements (prod , mine) in the HTML file
         prop2: 'val2',
         ..
 }, speed2, callbackfunc2);
-
 - CSS properties are in camel case // font-size -> fontSize
-- we can use 'hide', 'show', 'toggle' instead of 'val1', 'val2', ..
+- we can use instead of 'val1', 'val2', ..
+        - 'hide', 'show', 'toggle'
+        - '+=val1', '-=val2' to increase or decrease the predefined val of a num-val-prop
 - all properties in an animate function happen together in the desired speed
 - if we use more than one animate func all props in animate1 is done first then in animate2
         prop1,prop2.. (animate1) -> callbackfunc1 -> prop1,prop2.. (animate2) -> callbackfunc2
+
+.stop(clearQueue, goToEnd)
+- stop is used to prevent animations (t but end val or reaching the end val or both)
+- clearQueue and goToEnd are bool var with default values false
+- we can use the only a val for the 1st param without writing the last (false as default)
+- (false, false)
+        - the default values for both
+        - stops one animation per event (which is on the queue. past is past)
+        - not going to the end val of prop on the canceled animation
+- (false, true)
+        - stops one animation per event
+        - going to the end val of prop on the canceled animation
+- (true, false)
+        - stops all the animations on the queue
+        - not going to end val of prop on any canceled animation
+- (true, true)
+        - stops all the animations on the queue
+        - going to end val of prop on the first canceled animation on the queue
 
 ################################################################################################
 
