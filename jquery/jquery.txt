@@ -82,3 +82,23 @@ after appending the 2 script elements (prod , mine) in the HTML file
 .slideToggle
 
 ################################################################################################
+
+.animate1({
+        prop1: 'val1',
+        prop2: 'val2',
+        ..
+}, speed1, callbackfunc2);
+.animate2({
+        prop1: 'val1',
+        prop2: 'val2',
+        ..
+}, speed2, callbackfunc2);
+
+- CSS properties are in camel case // font-size -> fontSize
+- we can use 'hide', 'show', 'toggle' instead of 'val1', 'val2', ..
+- all properties in an animate function happen together in the desired speed
+- if we use more than one animate func all props in animate1 is done first then in animate2
+        prop1,prop2.. (animate1) -> callbackfunc1 -> prop1,prop2.. (animate2) -> callbackfunc2
+
+################################################################################################
+
