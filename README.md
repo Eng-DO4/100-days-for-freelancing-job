@@ -213,7 +213,11 @@ The road to catch your first client in 100 days
 |156|16/03/2023|to 24 WordPress vid from Elzero on Youtube|1hr|
 |   |          |to 9 JQuery vid from Elzero on Youtube|2hrs|
 |   |          |working on Bootstrap5 template one from elzero web school|4hrs|
-
+|157|17/03/2023|||
+|158|18/03/2023|to 35 WordPress vid from Elzero on Youtube|1.5hrs|
+|159|19/03/2023|||
+|160|20/03/2023|wordPress setup|1hr|
+|   |          |to 12 PHP vid with asss from Elzero on Youtube|3hrs|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
