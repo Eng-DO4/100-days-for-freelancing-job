@@ -1,0 +1,13 @@
+<?php
+    /*
+    dir
+    int
+    bool
+    echo
+    double
+    include
+    nl2br
+    print
+    print_r
+    define
+    */
