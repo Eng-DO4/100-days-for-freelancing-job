@@ -1,0 +1,10 @@
+npm tsc <TSfile>    transpiling ts files to js ones
+node <JSfile>       running js files in terminal
+
+npm -w <TSfile>     watching changes on ts file without creating js files
+
+npm i -g typescript
+                    global installation for ur device
+npm i typescript 
+                    for ur project dir only
+
