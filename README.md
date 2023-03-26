@@ -220,6 +220,9 @@ The road to catch your first client in 100 days
 |   |          |to 19 PHP vid with asss from Elzero on Youtube|4hrs|
 |161|21/03/2023|to 62 PHP vid from Elzero on Youtube|2.5hrs|
 |162|22/03/2023|to 20-29 PHP asss from Elzero Web School Academy|1.5hrs|
+|163|23/03/2023|to 30-36 PHP asss from Elzero Web School Academy|1hr|
+|164|24/03/2023|||
+|165|25/03/2023|||
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
