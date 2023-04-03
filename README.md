@@ -13,16 +13,16 @@ The road to catch your first client in 100 days
 |005|16/10/2022|imp ass from Elzero Academy|4hrs|
 |006|17/10/2022|to 37 CSS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|1hr|
-|007|18/10/2022|||
-|008|19/10/2022|||
-|009|20/10/2022|||
-|010|21/10/2022|||
-|011|22/10/2022|||
-|012|23/10/2022|||
+|007|18/10/2022||
+|008|19/10/2022||
+|009|20/10/2022||
+|010|21/10/2022||
+|011|22/10/2022||
+|012|23/10/2022||
 |013|24/10/2022|to 45 CSS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|3hrs|
-|014|25/10/2022|||
-|015|26/10/2022|||
+|014|25/10/2022||
+|015|26/10/2022||
 |016|27/10/2022|to 52 CSS vid from Elzero on Youtube|15mins|
 |   |          |imp ass from Elzero Academy (not complete)|1hr|
 |017|28/10/2022|imp ass from Elzero Academy (now complete)|2.5hrs|
@@ -65,26 +65,26 @@ The road to catch your first client in 100 days
 |   |          |imp ass from Elzero Academy|1hr|
 |   |          |to 93 JS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|1.5hrs|
-|035|15/11/2022|||
-|036|16/11/2022|||
-|037|17/11/2022|||
-|038|18/11/2022|||
-|039|19/11/2022|||
-|040|20/11/2022|||
-|041|21/11/2022|||
-|042|22/11/2022|||
-|043|23/11/2022|||
-|044|24/11/2022|||
-|045|25/11/2022|||
-|046|26/11/2022|||
-|047|27/11/2022|||
-|048|28/11/2022|||
-|049|29/11/2022|||
-|050|30/11/2022|||
-|051|01/12/2022|||
-|052|02/12/2022|||
-|053|03/12/2022|||
-|054|04/12/2022|||
+|035|15/11/2022||
+|036|16/11/2022||
+|037|17/11/2022||
+|038|18/11/2022||
+|039|19/11/2022||
+|040|20/11/2022||
+|041|21/11/2022||
+|042|22/11/2022||
+|043|23/11/2022||
+|044|24/11/2022||
+|045|25/11/2022||
+|046|26/11/2022||
+|047|27/11/2022||
+|048|28/11/2022||
+|049|29/11/2022||
+|050|30/11/2022||
+|051|01/12/2022||
+|052|02/12/2022||
+|053|03/12/2022||
+|054|04/12/2022||
 |055|05/12/2022|to 101 JS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|30mins|
 |056|06/12/2022|imp ass from Elzero Academy|1hrs|
@@ -97,27 +97,27 @@ The road to catch your first client in 100 days
 |   |          |imp ass from Elzero Academy|1hrs|
 |060|10/12/2022|to 124 JS vid from Elzero on Youtube|15mins|
 |   |          |imp ass from Elzero Academy|15mins|
-|061|11/12/2022|||
-|062|12/12/2022|||
-|063|13/12/2022|||
+|061|11/12/2022||
+|062|12/12/2022||
+|063|13/12/2022||
 |064|14/12/2022|to 133 JS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|1hrs|
 |   |          |to 146 JS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|30mins|
 |065|15/12/2022|to 158 JS vid from Elzero on Youtube|30mins|
 |   |          |imp ass from Elzero Academy|2hrs|
-|066|16/12/2022|||
+|066|16/12/2022||
 |067|17/12/2022|to 7 ReactJS vid from Net Ninja on Youtube|30mins|
 |   |          |follow steps after watching videos|30mins|
 |068|18/12/2022|to 9 ReactJS vid from Net Ninja on Youtube|15mins|
 |   |          |follow steps after watching videos|30mins|
 |069|19/12/2022|to 13 ReactJS vid from Net Ninja on Youtube|15mins|
 |   |          |follow steps after watching videos|45mins|
-|070|20/12/2022|||
+|070|20/12/2022||
 |071|21/12/2022|to 15 ReactJS vid from Net Ninja on Youtube|15mins|
 |   |          |follow steps after watching videos|30mins|
-|072|22/12/2022|||
-|073|23/12/2022|||
+|072|22/12/2022||
+|073|23/12/2022||
 |074|24/12/2022|to 19 ReactJS vid from Net Ninja on Youtube|15mins|
 |   |          |follow steps after watching videos|1hr|
 |075|25/12/2022|to 22 ReactJS vid from Net Ninja on Youtube|30mins|
@@ -128,77 +128,77 @@ The road to catch your first client in 100 days
 |   |          |follow steps after watching videos|30mins|
 |078|28/12/2022|All ReactJS vid from Net Ninja on Youtube|30mins|
 |   |          |follow steps after watching videos|3hrs|
-|079|29/12/2022|||
+|079|29/12/2022||
 |080|30/12/2022|working on template one from a PSD|5hrs|
 |081|31/12/2022|working on template one from a PSD|3hrs|
 |   |          |working on template one from a PSD|2hrs|
 |082|01/01/2023|working on template one from a PSD|4hrs|
 |083|02/01/2023|working on template one from a PSD|3hrs|
-|084|03/01/2023|||
-|085|04/01/2023|||
-|086|05/01/2023|||
-|087|06/01/2023|||
-|088|07/01/2023|||
-|089|08/01/2023|||
-|090|09/01/2023|||
-|091|10/01/2023|||
-|092|11/01/2023|||
-|093|12/01/2023|||
-|094|13/01/2023|||
-|095|14/01/2023|||
-|096|15/01/2023|||
+|084|03/01/2023||
+|085|04/01/2023||
+|086|05/01/2023||
+|087|06/01/2023||
+|088|07/01/2023||
+|089|08/01/2023||
+|090|09/01/2023||
+|091|10/01/2023||
+|092|11/01/2023||
+|093|12/01/2023||
+|094|13/01/2023||
+|095|14/01/2023||
+|096|15/01/2023||
 |097|16/01/2023|working on template two from a PSD|6hrs|
 |098|17/01/2023|working on template two from a PSD|3.5hrs|
-|099|18/01/2023|||
+|099|18/01/2023||
 |100|19/01/2023|working on template two from a PSD|7hrs|
-|101|20/01/2023|||
-|102|21/01/2023|||
-|103|22/01/2023|||
-|104|23/01/2023|||
-|105|24/01/2023|||
+|101|20/01/2023||
+|102|21/01/2023||
+|103|22/01/2023||
+|104|23/01/2023||
+|105|24/01/2023||
 |106|25/01/2023|working on template two from a PSD|3hrs|
-|107|26/01/2023|||
+|107|26/01/2023||
 |108|27/01/2023|working on template two from a PSD|5hrs|
 |109|28/01/2023|working on template two from a PSD|3hrs|
 |110|29/01/2023|working on template two from a PSD|1.5hrs|
-|111|30/01/2023|||
-|112|31/01/2023|||
-|113|01/02/2023|||
-|114|02/02/2023|||
+|111|30/01/2023||
+|112|31/01/2023||
+|113|01/02/2023||
+|114|02/02/2023||
 |115|03/02/2023|All SASS vid from Elzero on Youtube|1.5hrs|
 |116|04/02/2023|some imp SASS ass from Elzero Academy|3hrs|
-|117|05/02/2023|||
-|118|06/02/2023|||
+|117|05/02/2023||
+|118|06/02/2023||
 |119|07/02/2023|All PugJS vid from Elzero on Youtube|1.5hrs|
 |120|08/02/2023|All SASS ass from Elzero Academy|2hrs|
-|121|09/02/2023|||
-|122|10/02/2023|||
-|123|11/02/2023|||
-|124|12/02/2023|||
-|125|13/02/2023|||
-|126|14/02/2023|||
-|127|15/02/2023|||
-|128|16/02/2023|||
-|129|17/02/2023|||
-|130|18/02/2023|||
-|131|19/02/2023|||
-|132|20/02/2023|||
-|133|21/02/2023|||
-|134|22/02/2023|||
-|135|23/02/2023|||
-|136|24/02/2023|||
-|137|25/02/2023|||
-|138|26/02/2023|||
-|139|27/02/2023|||
-|140|28/02/2023|||
-|141|01/03/2023|||
-|142|02/03/2023|||
-|143|03/03/2023|||
-|144|04/03/2023|||
-|145|05/03/2023|||
+|121|09/02/2023||
+|122|10/02/2023||
+|123|11/02/2023||
+|124|12/02/2023||
+|125|13/02/2023||
+|126|14/02/2023||
+|127|15/02/2023||
+|128|16/02/2023||
+|129|17/02/2023||
+|130|18/02/2023||
+|131|19/02/2023||
+|132|20/02/2023||
+|133|21/02/2023||
+|134|22/02/2023||
+|135|23/02/2023||
+|136|24/02/2023||
+|137|25/02/2023||
+|138|26/02/2023||
+|139|27/02/2023||
+|140|28/02/2023||
+|141|01/03/2023||
+|142|02/03/2023||
+|143|03/03/2023||
+|144|04/03/2023||
+|145|05/03/2023||
 |146|06/03/2023|working on template three from elzero web school|1hr|
 |147|07/03/2023|working on template three from elzero web school|4hrs|
-|148|08/03/2023|||
+|148|08/03/2023||
 |149|09/03/2023|working on template three from elzero web school|5hrs|
 |150|10/03/2023|working on template three from elzero web school|2hrs|
 |151|11/03/2023|working on template three from elzero web school|5hrs|
@@ -213,18 +213,27 @@ The road to catch your first client in 100 days
 |156|16/03/2023|to 24 WordPress vid from Elzero on Youtube|1hr|
 |   |          |to 9 JQuery vid from Elzero on Youtube|2hrs|
 |   |          |working on Bootstrap5 template one from elzero web school|4hrs|
-|157|17/03/2023|||
+|157|17/03/2023||
 |158|18/03/2023|to 35 WordPress vid from Elzero on Youtube|1.5hrs|
-|159|19/03/2023|||
+|159|19/03/2023||
 |160|20/03/2023|wordPress setup|1hr|
 |   |          |to 19 PHP vid with asss from Elzero on Youtube|4hrs|
 |161|21/03/2023|to 62 PHP vid from Elzero on Youtube|2.5hrs|
 |162|22/03/2023|to 20-29 PHP asss from Elzero Web School Academy|1.5hrs|
 |163|23/03/2023|to 30-36 PHP asss from Elzero Web School Academy|1hr|
-|164|24/03/2023|||
-|165|25/03/2023|||
+|164|24/03/2023||
+|165|25/03/2023||
 |166|26/03/2023|to 37-42 PHP asss from Elzero Web School Academy|1.5hrs|
 |   |          |to 11 TS vid with asss from Elzero on Youtube|2hrs|
+|167|27/03/2023||
+|168|28/03/2023||
+|169|29/03/2023||
+|170|30/03/2023||
+|171|31/03/2023||
+|172|01/04/2023||
+|173|02/04/2023||
+|174|03/04/2023|quick intro to react.JS from react.JS documentations|1hr|
+|   |          |all week1 with quizzes and ass in coursera-meta course|2hr|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
