@@ -233,7 +233,12 @@ The road to catch your first client in 100 days
 |172|01/04/2023||
 |173|02/04/2023||
 |174|03/04/2023|quick intro to react.JS from react.JS documentations|1hr|
-|   |          |all week1 with quizzes and ass in coursera-meta course|2hr|
+|   |          |all week1 with quizzes and ass in coursera-meta course|3hr|
+|175|04/04/2023||
+|176|05/04/2023||
+|177|06/04/2023||
+|178|07/04/2023||
+|179|08/04/2023||
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
