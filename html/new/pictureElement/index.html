@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture element</title>
+</head>
+<body>
+    <!-- 
+        The <picture> element contains one or more <source> elements, 
+        each referring to different images through the srcset attribute. 
+        This way the browser can choose the image that best fits the current view and/or device.
+    -->
+    <picture>
+        <source media="(min-width: 650px)" srcset="../imgMap/imgs/mac.jpg">
+        <source media="(min-width: 450px)" srcset="../imgMap/imgs/cellphone.jpg">
+        <!-- the browser will use the first source matches and ignore the rest -->
+        <img src="../imgMap/imgs/coffeehouse2.jpg" alt="coffee house"> <!-- always use at bottom -->
+        <!-- img element is for browsers don't support picture element or if there are no source valid -->
+    </picture>
+    <picture>
+        <source srcset="../imgMap/imgs/workplace.jpg">
+        <source srcset="./imgs/img_avatar.png">
+        <img src="../imgMap/imgs/coffeehouse2.jpg" alt="coffee house">
+        <!-- without media attribute they will be ignored -->
+    </picture>
+</body>
+</html>
