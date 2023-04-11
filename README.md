@@ -239,6 +239,9 @@ The road to catch your first client in 100 days
 |177|06/04/2023||
 |178|07/04/2023||
 |179|08/04/2023||
+|180|09/04/2023||
+|181|10/04/2023||
+|182|11/04/2023|to 12 Vue.JS vid from Elzero on Youtube|1.5hr|
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
