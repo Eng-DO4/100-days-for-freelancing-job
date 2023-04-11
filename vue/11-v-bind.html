@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn Vue.JS</title>
+</head>
+<body>
+    <div id="elzero">
+        <h1>Welcome to Vue.JS Course</h1>
+        <p>Welcome {{ 'Mr. ' + name }}! We are happy to see you.</p>
+        <a v-bind:href="imgURL">
+            <img v-bind:src="imgSrc" :alt="altTxt" width="100"></img>
+            <!-- (:prop) is a short hand for (v-bind:prop) -->
+        </a>
+    </div>
+    <script src="js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#elzero',
+            data: {
+                name: 'DO4',
+                imgSrc: './imgs/smart1.jpg',
+                altTxt: 'The alternate text',
+                imgURL: 'https://www.google.com',
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn Vue.JS</title>
+</head>
+<body>
+    <div id="elzero">
+        <h1>Welcome to Vue.JS Course</h1>
+        <p>Welcome {{ 'Mr. ' + name }}! We are happy to see you.</p>
+        <!-- Don't separate between if/elseif/else to make the control flow valid -->
+        <p v-if="age > 50">Your are too old</p>
+        <p v-else-if="age <= 50 && age >= 20">Your are not too old</p>
+        <p v-else="age < 20">Your are not still young</p>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#elzero',
+            data: {
+                name: 'DO4',
+                age: 21,
+                date: 'Today',
+                gender: 'male',
+                skills: ['CLI & cmd', 'Git & GitHub', 'HTML5', 'CSS3', 'RWD', 'JS', 'React.JS', 'Sass', 'Pug.JS', 'Bootstrap', 'Vue.JS'],
+                isWorking: false,
+                completeTests: [
+                    {
+                        testName: 'First Test',
+                        testRes: '80%',
+                    },
+                    {
+                        testName: 'second Test',
+                        testRes: '75%',
+                    },
+                    {
+                        testName: 'third Test',
+                        testRes: '100%',
+                    },
+                ],
+            },
+            methods: {
+                saySomething: _ => 'Hello from Vue.JS Methods!',
+                urAgeInDays: function () {
+                    return 'Your Age in days is ' + (this.age * 365);
+                },
+                newDate: function() { this.date = Date(); },
+            }
+        })
+    </script>
+</body>
+</html>

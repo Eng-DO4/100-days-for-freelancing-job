@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn Vue.JS</title>
+</head>
+<body>
+    <div id="elzero">
+        <h1>Welcome to Vue.JS Course</h1>
+        <p>Welcome {{ 'Mr. ' + name }}! We are happy to see you.</p>
+        <p v-text="name"></p>
+        <p v-text="'Mr. ' + name"><!-- no text here --></p>
+        <p v-text="isSet ? 'ur name is set' : 'ur name is not set'"></p>
+        <!-- when to use -->
+        <p>Lorem {{name}} ipsum dolor sit amet consectetur, adipisicing elit. Maiores ipsa debitis dolor quisquam consectetur aspernatur ducimus commodi facilis optio. Aspernatur adipisci non delectus consequuntur eveniet officiis explicabo ad fugit quisquam!</p>
+        <p v-text="name"></p>
+        <!-- v-text vs v-html -->
+        <p v-text="myElem"></p>
+        <p v-html="myElem"></p>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#elzero',
+            data: {
+                name: 'DO4',
+                isSet: true,
+                myElem: '<p class="mine">this is <b>my</b> element</p>'
+            },
+        })
+    </script>
+</body>
+</html>

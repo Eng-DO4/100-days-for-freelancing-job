@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn Vue.JS</title>
+</head>
+<body>
+    <div id="elzero">
+        <h1>Welcome to Vue.JS Course</h1>
+        <p>Welcome {{ 'Mr. ' + name }}! We are happy to see you.</p>
+        <form>
+            <input type="text" v-bind:value="source" placeholder="1-way binding">
+            <input type="text" v-model="source" placeholder="2-way binding"> <!-- don't declare here (intial xxx) -->
+            <!-- v-model is limited for input/select/textarea elements in form -->
+        </form>
+        <p>{{source}}</p>
+    </div>
+    <script src="js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#elzero',
+            data: {
+                source: 'DO4',
+            }
+        })
+    </script>
+</body>
+</html>

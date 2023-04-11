@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn Vue.JS</title>
+</head>
+<body>
+    <div id="elzero">
+        <h1>Welcome to Vue.JS Course</h1>
+        <p>Welcome {{ 'Mr. ' + name }}! We are happy to see you.</p>
+        <p>Counter {{i}}</p>
+        <button v-on:click="i++">increase counter</button>
+        <button @click="i--">decrease counter</button> <!-- (@event) is a short hand for (v-on:event) -->
+        <!-- customizing the event -->
+        <button @click.left="i++">increase counter with the left click</button>
+        <button @click.middle="i=0">reset counter with the middle click</button>
+        <button @click.right="i--">decrease counter with the right click</button>
+    </div>
+    <script src="js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#elzero',
+            data: {
+                name: 'DO4',
+                i: 0,
+            }
+        })
+    </script>
+</body>
+</html>

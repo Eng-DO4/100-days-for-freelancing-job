@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn Vue.JS</title>
+</head>
+<body>
+    <div id="elzero">
+        <h1>Welcome to Vue.JS Course</h1>
+        <p>Welcome {{ 'Mr. ' + name }}! We are happy to see you.</p>
+        <p>Your age is {{ age }} years</p>
+        <ul>
+            <li v-for="skill in skills">
+                {{skill}}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="(skill, index) in skills">
+                {{index}} => {{skill}}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="test in completeTests">
+                {{test.testName}}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="test in completeTests">
+                {{test.testName}} | {{test.testRes}}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="(test, index) in completeTests"> <!-- index should be second param -->
+                {{index}} => {{test.testName}} | {{test.testRes}}
+            </li>
+        </ul>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#elzero',
+            data: {
+                name: 'DO4',
+                age: 21,
+                date: 'Today',
+                gender: 'male',
+                skills: ['CLI & cmd', 'Git & GitHub', 'HTML5', 'CSS3', 'RWD', 'JS', 'React.JS', 'Sass', 'Pug.JS', 'Bootstrap', 'Vue.JS'],
+                isWorking: false,
+                completeTests: [
+                    {
+                        testName: 'First Test',
+                        testRes: '80%',
+                    },
+                    {
+                        testName: 'second Test',
+                        testRes: '75%',
+                    },
+                    {
+                        testName: 'third Test',
+                        testRes: '100%',
+                    },
+                ],
+            },
+            methods: {
+                saySomething: _ => 'Hello from Vue.JS Methods!',
+                urAgeInDays: function () {
+                    return 'Your Age in days is ' + (this.age * 365);
+                },
+                newDate: function() { this.date = Date(); },
+            }
+        })
+    </script>
+</body>
+</html>
