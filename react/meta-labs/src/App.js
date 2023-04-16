@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Header from './Header'
+import Heading from './Heading'
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Heading firstName="Bob" />
+      <Heading firstName="DR4" />
+    </>
+  );
 }
 
 export default App;
