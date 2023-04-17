@@ -1,3 +1,23 @@
-const Square = () => <button className="square">X</button>;
+const Square = () => {
+    return(
+        <>
+            <div className="row">
+                <button className="square"></button>
+                <button className="square"></button>
+                <button className="square"></button>
+            </div>
+            <div className="row">
+                <button className="square"></button>
+                <button className="square"></button>
+                <button className="square"></button>
+            </div>
+            <div className="row">
+                <button className="square"></button>
+                <button className="square"></button>
+                <button className="square"></button>
+            </div>
+        </>
+    )
+};
 
-export default Square;
+export default G;

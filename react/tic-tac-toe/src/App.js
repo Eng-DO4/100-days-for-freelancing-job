@@ -1,11 +1,9 @@
-import Square from "./Square";
+import GameArea from "./GameArea";
 
 const App = () => {
   return (
     <div className="App">
-      <Square />
-      <Square />
-      <Square />
+      <GameArea />
     </div>
   );
 }
