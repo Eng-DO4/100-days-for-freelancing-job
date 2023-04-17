@@ -1,8 +1,10 @@
-import Square from "./Square.js";
+import Square from "./Square";
 
 const App = () => {
   return (
     <div className="App">
+      <Square />
+      <Square />
       <Square />
     </div>
   );
