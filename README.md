@@ -248,6 +248,9 @@ The road to catch your first client in 100 days
 |186|15/04/2023||
 |187|16/04/2023|finished week1 with quizzes and ass in coursera-meta course|2hrs|
 |188|17/04/2023|Tic-Tac-Toe game with React.JS|1.5hr|
+|189|18/04/2023||
+|190|19/04/2023||
+|191|20/04/2023||
 
 ## Table of Content (TOC)
 - [Link](https://eng-do4.github.io/100-days-for-freelancing-job) for All
